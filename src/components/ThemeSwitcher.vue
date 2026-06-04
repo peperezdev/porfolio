@@ -39,7 +39,59 @@ const { theme, isDark, toggleTheme } = useTheme()
       </div>
     </div>
 
-    <div class="p-4 bg-surface-container rounded-lg text-on-surface">
+    <!-- Tipografía -->
+    <div class="mt-4 pt-4 border-t border-outline-variant">
+      <h2 class="text-headline-md text-center font-headline font-semibold mb-4 text-primary">
+        Tipografía
+      </h2>
+
+      <div class="flex justify-evenly gap-3">
+        <!-- Encabezados -->
+        <div>
+          <p class="text-label-md font-mono text-outline mb-2">
+            Familia: Headline (Geist) / Tamaños de Encabezado
+          </p>
+          <div class="flex flex-col gap-2">
+            <h1 class="font-headline text-headline-xl font-bold">Headline Extra Large</h1>
+            <h2 class="font-headline text-headline-lg font-semibold">Headline Large</h2>
+            <h3 class="font-headline text-headline-md font-medium">Headline Medium</h3>
+            <h4 class="font-headline text-headline-sm font-regular">Headline Small</h4>
+          </div>
+        </div>
+
+        <!-- Cuerpo -->
+        <div>
+          <p class="text-label-md font-mono text-outline mb-2">
+            Familia: Body (Inter) / Tamaños de Cuerpo
+          </p>
+          <div class="flex flex-col gap-2">
+            <p class="font-body text-body-lg">
+              Body Large: El diseño es el embajador silencioso de tu marca.
+            </p>
+            <p class="font-body text-body-md">
+              Body Medium: El diseño es el embajador silencioso de tu marca.
+            </p>
+            <p class="font-body text-label-md">
+              Label Medium: Texto de etiqueta pequeña y utilitaria.
+            </p>
+          </div>
+        </div>
+
+        <!-- Código -->
+        <div>
+          <p class="text-label-md font-mono text-outline mb-2">
+            Familia: Mono (JetBrains) / Código
+          </p>
+          <div class="p-4 bg-surface-container-high rounded-md">
+            <code class="font-mono text-mono-code text-on-surface"
+              >const design = "embajador silencioso";</code
+            >
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <div class="p-4 bg-surface-container text-center rounded-lg text-on-surface mt-4">
       <p class="text-sm">
         Tema actual: <span class="font-bold">{{ theme }}</span>
       </p>
