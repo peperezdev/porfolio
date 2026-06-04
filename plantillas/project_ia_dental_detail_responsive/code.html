@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+
+<html class="dark" lang="en"><head>
+<meta charset="utf-8"/>
+<meta content="width=device-width, initial-scale=1.0" name="viewport"/>
+<title>IA Dental - Platform for Radiographic Analysis | Project Detail</title>
+<script src="https://cdn.tailwindcss.com?plugins=forms,container-queries"></script>
+<link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght,FILL@100..700,0..1&amp;display=swap" rel="stylesheet"/>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;family=JetBrains+Mono:wght@400;500;600;700&amp;family=Geist:wght@400;500;600;700&amp;display=swap" rel="stylesheet"/>
+<script id="tailwind-config">
+  tailwind.config = {
+    darkMode: "class",
+    theme: {
+      extend: {
+        "colors": {
+                "outline-variant": "#464554",
+                "slate-950": "#020617",
+                "on-tertiary": "#4f2500",
+                "indigo-vibrant": "#6366F1",
+                "on-error-container": "#ffdad6",
+                "slate-900": "#0F172A",
+                "inverse-on-surface": "#283044",
+                "inverse-primary": "#494bd6",
+                "primary": "#c0c1ff",
+                "on-tertiary-fixed": "#301400",
+                "on-background": "#dae2fd",
+                "surface-container-lowest": "#060e20",
+                "surface-bright": "#31394d",
+                "tertiary-container": "#d97721",
+                "surface-container-highest": "#2d3449",
+                "tertiary": "#ffb783",
+                "surface-dim": "#0b1326",
+                "on-tertiary-fixed-variant": "#703700",
+                "secondary-fixed": "#acedff",
+                "surface-tint": "#c0c1ff",
+                "surface-container": "#171f33",
+                "on-tertiary-container": "#452000",
+                "surface-container-low": "#131b2e",
+                "on-primary": "#1000a9",
+                "on-primary-container": "#0d0096",
+                "error": "#ffb4ab",
+                "error-container": "#93000a",
+                "cyan-cyber": "#22D3EE",
+                "surface-variant": "#2d3449",
+                "on-secondary-fixed": "#001f26",
+                "on-secondary": "#003640",
+                "secondary": "#4cd7f6",
+                "inverse-surface": "#dae2fd",
+                "tertiary-fixed": "#ffdcc5",
+                "outline": "#908fa0",
+                "on-error": "#690005",
+                "surface-container-high": "#222a3d",
+                "zinc-50": "#FAFAFA",
+                "primary-container": "#8083ff",
+                "on-secondary-fixed-variant": "#004e5c",
+                "background": "#0b1326",
+                "on-secondary-container": "#00424e",
+                "primary-fixed-dim": "#c0c1ff",
+                "zinc-100": "#F4F4F5",
+                "on-primary-fixed": "#07006c",
+                "on-primary-fixed-variant": "#2f2ebe",
+                "secondary-fixed-dim": "#4cd7f6",
+                "surface": "#0b1326",
+                "on-surface": "#dae2fd",
+                "primary-fixed": "#e1e0ff",
+                "secondary-container": "#03b5d3",
+                "tertiary-fixed-dim": "#ffb783",
+                "on-surface-variant": "#c7c4d7"
+        },
+        "borderRadius": {
+                "DEFAULT": "0.25rem",
+                "lg": "0.5rem",
+                "xl": "0.75rem",
+                "full": "9999px"
+        },
+        "spacing": {
+                "margin-desktop": "64px",
+                "gutter": "24px",
+                "margin-mobile": "16px",
+                "bento-gap": "16px",
+                "unit": "4px"
+        },
+        "fontFamily": {
+                "headline-lg-mobile": [
+                        "Geist"
+                ],
+                "body-md": [
+                        "Inter"
+                ],
+                "headline-xl": [
+                        "Geist"
+                ],
+                "headline-lg": [
+                        "Geist"
+                ],
+                "code-sm": [
+                        "JetBrains Mono"
+                ],
+                "label-caps": [
+                        "JetBrains Mono"
+                ]
+        },
+        "fontSize": {
+                "headline-lg-mobile": [
+                        "28px",
+                        {
+                                "lineHeight": "1.2",
+                                "fontWeight": "600"
+                        }
+                ],
+                "body-md": [
+                        "16px",
+                        {
+                                "lineHeight": "1.6",
+                                "fontWeight": "400"
+                        }
+                ],
+                "headline-xl": [
+                        "48px",
+                        {
+                                "lineHeight": "1.1",
+                                "letterSpacing": "-0.02em",
+                                "fontWeight": "700"
+                        }
+                ],
+                "headline-lg": [
+                        "32px",
+                        {
+                                "lineHeight": "1.2",
+                                "fontWeight": "600"
+                        }
+                ],
+                "code-sm": [
+                        "14px",
+                        {
+                                "lineHeight": "1.4",
+                                "fontWeight": "500"
+                        }
+                ],
+                "label-caps": [
+                        "12px",
+                        {
+                                "lineHeight": "1.0",
+                                "letterSpacing": "0.05em",
+                                "fontWeight": "600"
+                        }
+                ]
+        }
+},
+    },
+  }
+</script>
+</head>
+<body class="bg-background text-on-background antialiased selection:bg-primary selection:text-white min-h-screen flex flex-col pt-16">
+<!-- TopNavBar -->
+<nav class="bg-background/70 dark:bg-background/70 fixed top-0 w-full z-50 backdrop-blur-xl border-b border-outline-variant/30">
+<div class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
+<a class="font-label-caps text-label-caps font-bold text-on-surface tracking-widest hover:bg-surface-container-high/50 transition-all duration-150 p-2 rounded" href="#">
+                AI_ENG_CORE
+            </a>
+<!-- Navigation Links (Web) -->
+<div class="hidden md:flex gap-8">
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="#">Home</a>
+<a class="font-body-md text-body-md text-primary relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-primary after:rounded-full" href="#">Projects</a>
+<a class="font-body-md text-body-md text-on-surface-variant hover:text-on-surface transition-colors duration-200" href="#">About Me</a>
+</div>
+<!-- Actions -->
+<div class="flex items-center gap-4">
+<button aria-label="Toggle Dark Mode" class="text-on-surface-variant hover:text-primary transition-colors duration-200 p-2 rounded hover:bg-surface-container-high/50 active:scale-95 transition-transform">
+<span class="material-symbols-outlined">dark_mode</span>
+</button>
+</div>
+</div>
+</nav>
+<!-- Main Content -->
+<main class="flex-grow max-w-7xl mx-auto w-full px-margin-mobile md:px-margin-desktop py-8 md:py-12 flex flex-col gap-8 md:gap-12">
+<!-- Header Section -->
+<header class="flex flex-col gap-4 md:gap-8">
+<div class="inline-flex items-center gap-2 px-3 py-1 rounded-full bg-primary/10 border border-primary/30 text-primary w-fit">
+<span class="material-symbols-outlined text-[16px]">medical_services</span>
+<span class="font-label-caps text-label-caps">CASE STUDY</span>
+</div>
+<h1 class="font-headline-lg-mobile md:font-headline-xl text-headline-lg-mobile md:text-headline-xl text-on-surface">
+                IA Dental - Platform for Radiographic Analysis
+            </h1>
+<div class="flex flex-col md:flex-row gap-6 md:gap-8 mt-2 md:mt-4 border-l-2 border-primary pl-4 md:pl-6">
+<div class="flex flex-col">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-1 md:mb-2">ROLE</h3>
+<p class="font-body-md text-body-md text-on-surface">Full-Stack &amp; AI Integration</p>
+</div>
+<div class="flex flex-col">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-1 md:mb-2">TIMELINE</h3>
+<p class="font-body-md text-body-md text-on-surface">Q3 2023 - Present</p>
+</div>
+<div class="flex flex-col">
+<h3 class="font-label-caps text-label-caps text-on-surface-variant mb-1 md:mb-2">STACK</h3>
+<div class="flex flex-wrap gap-2">
+<span class="px-2 py-1 rounded border border-primary/40 text-primary font-code-sm text-code-sm bg-primary/5">Vue 3</span>
+<span class="px-2 py-1 rounded border border-secondary/40 text-secondary font-code-sm text-code-sm bg-secondary/5">GraphQL</span>
+<span class="px-2 py-1 rounded border border-secondary/40 text-secondary font-code-sm text-code-sm bg-secondary/5">YOLOv8</span>
+</div>
+</div>
+</div>
+</header>
+<!-- Body Layout: Bento Grid -->
+<div class="grid grid-cols-1 md:grid-cols-12 gap-bento-gap md:gap-gutter">
+<!-- Column 1: Architecture (Spans 7 cols on desktop) -->
+<section class="md:col-span-7 bg-surface-container border border-outline-variant/30 rounded-xl p-5 md:p-8 hover:border-primary hover:bg-surface-container-high/80 transition-all duration-300 relative overflow-hidden group">
+<!-- Subtle glow effect -->
+<div class="absolute -top-24 -right-24 w-48 h-48 bg-primary/10 blur-3xl rounded-full opacity-0 group-hover:opacity-100 transition-opacity duration-500"></div>
+<div class="flex items-center gap-3 mb-4 md:mb-6">
+<span class="material-symbols-outlined text-primary">architecture</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Architecture</h2>
+</div>
+<div class="prose prose-invert max-w-none">
+<p class="font-body-md text-body-md text-on-surface-variant mb-4">
+                        The core challenge was bridging the synchronous nature of typical web interfaces with the asynchronous, compute-heavy requirements of medical image analysis. We designed an event-driven architecture utilizing GraphQL subscriptions.
+                    </p>
+<h3 class="font-label-caps text-label-caps text-on-surface mt-6 mb-2">GraphQL &amp; YOLOv8 Integration Pipeline</h3>
+<ol class="list-decimal pl-5 font-body-md text-body-md text-on-surface-variant space-y-2 mb-6">
+<li>Client uploads panoramic radiograph via GraphQL mutation.</li>
+<li>Backend API queues the image to a specialized GPU-backed worker pool.</li>
+<li><strong>YOLOv8</strong> inference runs, detecting caries, bone loss, and structural anomalies.</li>
+<li>Results (bounding boxes, confidence scores) are structured into a standardized medical JSON payload.</li>
+<li>GraphQL subscription pushes the completed analysis back to the active Vue 3 client.</li>
+</ol>
+<div class="bg-surface-dim border border-outline-variant/30 rounded-lg p-3 md:p-4 font-code-sm text-code-sm text-on-surface-variant overflow-x-auto">
+<pre class="whitespace-pre"><code>query GetAnalysis($id: ID!) {
+  radiographAnalysis(id: $id) {
+    status
+    findings {
+      type       // e.g., "CARIES"
+      confidence // 0.98
+      boundingBox { x, y, width, height }
+    }
+  }
+}</code></pre>
+</div>
+</div>
+</section>
+<!-- Column 2: Challenges (Spans 5 cols on desktop) -->
+<section class="md:col-span-5 bg-surface-container border border-outline-variant/30 rounded-xl p-5 md:p-8 hover:border-secondary/50 hover:bg-surface-container-high/80 transition-all duration-300">
+<div class="flex items-center gap-3 mb-4 md:mb-6">
+<span class="material-symbols-outlined text-secondary">psychology</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Challenges</h2>
+</div>
+<div class="space-y-6">
+<div>
+<h3 class="font-body-md text-body-md font-semibold text-on-surface mb-2">Asynchronous State Management</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            Handling the indeterminate wait time for YOLOv8 inference required a robust state machine in Vue. We implemented a polling fallback for the GraphQL subscriptions to ensure UI consistency if WebSockets dropped during heavy inference loads.
+                        </p>
+</div>
+<div class="h-px w-full bg-outline-variant/20"></div>
+<div>
+<h3 class="font-body-md text-body-md font-semibold text-on-surface mb-2">Medical Prediction Rendering</h3>
+<p class="font-body-md text-body-md text-on-surface-variant">
+                            Drawing precise, non-destructive bounding boxes over high-resolution DICOM/JPEG radiographs in the browser was computationally expensive.
+                        </p>
+<p class="font-body-md text-body-md text-on-surface-variant mt-2">
+<strong>Solution:</strong> We utilized HTML5 Canvas overlaid perfectly on the image via absolute positioning, rendering the YOLOv8 coordinate data dynamically. This allowed toggling different anomaly layers (e.g., hiding 'Bone Loss' to focus on 'Caries') without re-rendering the heavy base image.
+                        </p>
+</div>
+</div>
+</section>
+<!-- Section 3: Gallery (Spans full 12 cols) -->
+<section class="md:col-span-12 bg-surface-container border border-outline-variant/30 rounded-xl p-5 md:p-8 hover:border-primary hover:bg-surface-container-high/80 transition-all duration-300">
+<div class="flex items-center gap-3 mb-6">
+<span class="material-symbols-outlined text-primary">gallery_thumbnail</span>
+<h2 class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface">Visuals &amp; Diagrams</h2>
+</div>
+<div class="grid grid-cols-1 md:grid-cols-2 gap-4 md:gap-6">
+<!-- Diagram Placeholder -->
+<div class="aspect-video bg-surface-dim border border-outline-variant/20 rounded-lg overflow-hidden relative group">
+<img alt="Software architecture diagram" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300" data-alt="A detailed, technical software architecture diagram displayed on a dark glowing monitor in a sleek, modern developer workspace. The diagram features complex nodes, flowcharts, and technical connections rendered in vibrant cyan and indigo hues against a deep slate background. The lighting is moody and cinematic, emphasizing the high-tech, bento-box aesthetic of the UI design system. The overall mood is focused and professional." src="https://lh3.googleusercontent.com/aida-public/AB6AXuAUZCbQJpg8bDT21cmderpHxXGO55JVVxcfff205Z1GWQZisrAubtXDPlS4q2CAUVdbq848MDY5eG0gFaSH6BIqU-nUPxM58AEhI0XPXHC44cE_0XbYcn-eArCrQuvNNY4kvmoB1PBfIM6lz3Qa14nm4kd3YCE1MUy-TCWDIt9otQ10eOjuNsM7u8MZpNUNBQbQLrt7QG_hrN4BM2RiJS66KQgCWnQ2DgQZRUB7YMW1Z39zRK4IhaMLUNAqlEjdHVXyA-PKi6c20ZA"/>
+<div class="absolute bottom-0 left-0 w-full p-3 md:p-4 bg-gradient-to-t from-background to-transparent">
+<p class="font-label-caps text-label-caps text-on-surface">System Architecture Flow</p>
+</div>
+</div>
+<!-- UI Screenshot Placeholder -->
+<div class="aspect-video bg-surface-dim border border-outline-variant/20 rounded-lg overflow-hidden relative group">
+<img alt="Medical dashboard interface" class="w-full h-full object-cover opacity-80 group-hover:opacity-100 transition-opacity duration-300" data-alt="A clean, highly professional medical dashboard user interface displayed on a high-resolution screen. The UI features dark mode aesthetics with deep slate backgrounds, precise data visualizations, and clear dental radiograph imagery overlaid with glowing cyan bounding boxes highlighting anomalies. The design is minimalist, utilizing a bento-grid layout to organize complex medical data logically. The lighting suggests a sterile yet advanced technological environment." src="https://lh3.googleusercontent.com/aida-public/AB6AXuDxYwIbniHFRzOyU7kQ6FdXaY6oBVlBAYtX1zmyHk6ZBq5PnIoW4bHZDGBQaFiEnU80iKodLiySIJiw5sc1qeVxCw4EEI6JrpcN3bynWM-O1Z4M26ey1lG7DJ44HOkZpDPPMDANmlXrP4BOaRCKKNPL2QU_S280ZQxotIcoMfBI2DLkFY7p1aLukBDyiEWPDNQLaRQufubAoaKmEQ2NYRBA2X1ZN4FMDhBu67d3IBFvOWH8aaaPfO0RL4ygfI9R2doMl9v4ycoKa-s"/>
+<div class="absolute bottom-0 left-0 w-full p-3 md:p-4 bg-gradient-to-t from-background to-transparent">
+<p class="font-label-caps text-label-caps text-on-surface">Canvas Rendering Interface</p>
+</div>
+</div>
+</div>
+</section>
+</div>
+</main>
+<!-- Footer -->
+<footer class="bg-surface-dim dark:bg-surface-dim w-full py-8 md:py-12 border-t border-outline-variant/20 mt-8 md:mt-12">
+<div class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
+<div class="font-label-caps text-label-caps text-secondary text-center md:text-left">
+                © 2024 AI Frontend Architect. Built with technical precision.
+            </div>
+<div class="flex gap-6">
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-secondary transition-all duration-200" href="#">GitHub</a>
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-secondary transition-all duration-200" href="#">LinkedIn</a>
+<a class="font-code-sm text-code-sm text-on-surface-variant hover:text-secondary transition-all duration-200" href="#">Contact</a>
+</div>
+</div>
+</footer>
+</body></html>
