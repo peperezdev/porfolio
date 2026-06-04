@@ -46,7 +46,7 @@ const { theme, isDark, toggleTheme } = useTheme()
             @click="toggleTheme"
             class="px-4 py-2 bg-primary text-on-primary rounded-lg hover:opacity-90 transition-opacity"
           >
-            {{ isDark ? '☀️ Claro' : '🌙 Oscuro' }}
+            {{ isDark ? '☀️' : '🌙' }}
           </button>
         </div>
       </div>
