@@ -1,10 +1,15 @@
 <script setup lang="ts">
 import { useTheme } from '@/composables/useTheme'
+import Header from '@/components/layout/Header.vue'
+import Footer from '@/components/layout/Footer.vue'
 
 const { theme, isDark, toggleTheme } = useTheme()
 </script>
 
 <template>
+
+  <Header />
+
   <div class="flex flex-col gap-4 p-6 bg-surface text-on-surface rounded-lg">
     <div class="flex items-center justify-between">
       <h2 class="text-lg font-semibold">Selector de Tema</h2>
@@ -97,4 +102,6 @@ const { theme, isDark, toggleTheme } = useTheme()
       </p>
     </div>
   </div>
+
+  <Footer />
 </template>

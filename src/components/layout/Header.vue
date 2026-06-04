@@ -6,7 +6,7 @@ const { theme, isDark, toggleTheme } = useTheme()
 
 <template>
   <!-- TopNavBar -->
-  <header>
+  <header class="mb-15 block">
     <nav
       class="bg-surface-container-lowest/80 dark:bg-surface-container-lowest/80 fixed top-0 w-full z-50 backdrop-blur-xl border-b border-outline-variant/30 flat no shadows"
     >
@@ -19,20 +19,25 @@ const { theme, isDark, toggleTheme } = useTheme()
           Pedro Pérez Porfolio
         </div>
         <div class="hidden md:flex space-x-8">
-          <a
-            class="text-on-surface-variant hover:text-on-surface transition-colors duration-200 hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
-            href="#"
-            >Home</a
-          >
-          <a
-            class="text-on-surface-variant hover:text-on-surface transition-colors duration-200 hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
-            href="#"
-            >Projects</a
-          >
-          <a
+          <router-link
+            :to="{ name: 'Patron' }"
             class="text-inverse-primary relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-inverse-primary after:rounded-full hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
-            href="#"
-            >About Me</a
+            >Patrón</router-link
+          >
+          <router-link
+            :to="{ name: 'Home' }"
+            class="text-on-surface-variant hover:text-on-surface transition-colors duration-200 hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
+            >Home</router-link
+          >
+          <router-link
+            :to="{ name: 'Projects' }"
+            class="text-on-surface-variant hover:text-on-surface transition-colors duration-200 hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
+            >Projects</router-link
+          >
+          <router-link
+            :to="{ name: 'About' }"
+            class="text-inverse-primary relative after:content-[''] after:absolute after:-bottom-1 after:left-1/2 after:-translate-x-1/2 after:w-1 after:h-1 after:bg-inverse-primary after:rounded-full hover:bg-surface-container-high/50 transition-all duration-150 px-3 py-2 rounded-DEFAULT"
+            >About Me</router-link
           >
         </div>
         <div class="flex items-center space-x-4">

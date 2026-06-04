@@ -4,13 +4,13 @@ const anyoActual = new Date().getFullYear()
 
 <template>
   <footer
-    class="md:fixed md:bottom-0 bg-surface-container-lowest dark:bg-surface-container-lowest w-full py-5 md:py-5 border-t border-outline-variant/20 flat no shadows mt-auto"
+    class="md:fixed md:bottom-0 bg-surface-container-lowest dark:bg-surface-container-lowest backdrop-blur-xl w-full py-5 md:py-5 border-t border-outline-variant/20 flat no shadows mt-auto"
   >
     <div
-      class="flex flex-col md:flex-row justify-between items-center gap-6 md:gap-8 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto transition-all duration-200"
+      class="flex flex-col md:flex-row justify-evenly items-center gap-6 md:gap-8 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto transition-all duration-200"
     >
       <div class="font-label-caps text-label-caps text-secondary uppercase tracking-widest">
-        AI_ENG_CORE
+        Pedro Pérez Porfolio
       </div>
       <div class="font-code-sm text-code-sm text-secondary text-center md:text-left">
         <a
