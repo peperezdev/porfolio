@@ -17,6 +17,7 @@ const anyoActual = new Date().getFullYear()
           class="font-bold"
           href="https://creativecommons.org/licenses/by/4.0/deed.es"
           target="_blank"
+          rel="noopener noreferrer"
           >CC-BY</a
         >
         {{ anyoActual }} Pedro Pérez
@@ -24,7 +25,9 @@ const anyoActual = new Date().getFullYear()
       <div class="flex space-x-6">
         <a
           class="text-on-surface-variant hover:text-secondary hover:opacity-80 transition-opacity font-code-sm text-code-sm"
-          href="#"
+          href="https://github.com/peperezdev"
+          target="_blank"
+          rel="noopener noreferrer"
           >GitHub</a
         >
         <a
