@@ -8,9 +8,10 @@ services:
     container_name: porfolio-frontend
     restart: unless-stopped
     ports:
-      - '3081:80'
-    # Opcional: Agregar variables de entorno si el proyecto las requiere
-    # environment:
-    #   - VITE_API_URL=https://api.tu-dominio.com
-    # Las etiquetas (labels) de Traefik pueden configurarse directamente
-    # desde la interfaz web de Dokploy, o agregarse aquí si usas Traefik manual
+      - '8081:80'
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true
