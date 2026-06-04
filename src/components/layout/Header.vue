@@ -11,12 +11,12 @@ const { theme, isDark, toggleTheme } = useTheme()
       class="bg-surface-container-lowest/80 dark:bg-surface-container-lowest/80 fixed top-0 w-full z-50 backdrop-blur-xl border-b border-outline-variant/30 flat no shadows"
     >
       <div
-        class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto"
+        class="flex justify-evenly items-center h-16 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto"
       >
         <div
           class="font-label-caps text-label-caps font-bold text-on-surface tracking-widest uppercase"
         >
-          AI_ENG_CORE
+          Pedro Pérez Porfolio
         </div>
         <div class="hidden md:flex space-x-8">
           <a

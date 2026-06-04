@@ -17,7 +17,7 @@ const { theme, isDark, toggleTheme } = useTheme()
       </button>
     </div>
 
-    <div class="grid grid-cols-2 gap-4">
+    <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
       <!-- Colores Primarios -->
       <div class="p-4 bg-primary-container text-on-primary-container rounded-lg">
         <p class="text-sm font-semibold">Primary Container</p>
@@ -45,7 +45,7 @@ const { theme, isDark, toggleTheme } = useTheme()
         Tipografía
       </h2>
 
-      <div class="flex justify-evenly gap-3">
+      <div class="flex flex-col md:flex-row md:justify-evenly gap-10 md:gap-3">
         <!-- Encabezados -->
         <div>
           <p class="text-label-md font-mono text-outline mb-2">
