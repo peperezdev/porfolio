@@ -46,6 +46,3 @@ const { theme, isDark, toggleTheme } = useTheme()
     </div>
   </div>
 </template>
-
-
-

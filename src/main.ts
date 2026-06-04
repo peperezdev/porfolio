@@ -3,7 +3,7 @@ import { createPinia } from 'pinia'
 
 import App from './App.vue'
 import router from './router'
-import './style.css'
+import './assets/styles/style.css'
 import { useTheme } from './composables/useTheme'
 
 const app = createApp(App)
@@ -16,6 +16,5 @@ app.use(router)
 const { initTheme, watchSystemPreference } = useTheme()
 initTheme()
 watchSystemPreference()
-
 
 app.mount('#app')

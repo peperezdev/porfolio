@@ -3,15 +3,15 @@ Fases de Desarrollo (Roadmap)
 Este plan se divide en 5 Sprints o fases secuenciales.
 Fase 1: Configuración Inicial (Setup)
 
-    [ ] Inicializar el proyecto con Vite: npm create vite@latest mi-porfolio -- --template vue
+    [X] Inicializar el proyecto con Vite: npm create vite@latest mi-porfolio -- --template vue
 
-    [ ] Instalar Tailwind CSS y configurar tailwind.config.js.
+    [X] Instalar Tailwind CSS y configurar tailwind.config.js.
 
-    [ ] Instalar Vue Router y Pinia.
+    [X] Instalar Vue Router y Pinia.
 
-    [ ] Limpiar archivos por defecto y crear la estructura de carpetas definida en la sección 3.
+    [X] Limpiar archivos por defecto y crear la estructura de carpetas definida en la sección 3.
 
-    [ ] Configurar variables CSS para la paleta de colores (ej. tonos neutros, gris pizarra, un color de acento vibrante).
+    [X] Configurar variables CSS para la paleta de colores (ej. tonos neutros, gris pizarra, un color de acento vibrante).
 
 Fase 2: Layout y Componentes Base
 

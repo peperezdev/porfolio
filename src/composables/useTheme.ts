@@ -15,4 +15,3 @@ export function useTheme() {
     watchSystemPreference: store.watchSystemPreference,
   }
 }
-
