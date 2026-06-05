@@ -7,7 +7,7 @@ import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
 
 const routes = [
   {
-    path: '/Home',
+    path: '/',
     name: 'Home',
     component: HomeView,
   },
@@ -22,7 +22,7 @@ const routes = [
     component: AboutView,
   },
   {
-    path: '/',
+    path: '/patron',
     name: 'Patron',
     component: ThemeSwitcher
   }

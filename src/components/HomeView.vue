@@ -12,32 +12,31 @@ import Footer from '@/components/layout/Footer.vue'
         class="inline-flex items-center gap-2 px-3 py-1 bg-primary-fixed text-on-primary-fixed-variant rounded-full font-label-md text-label-md mb-4"
       >
         <span class="material-symbols-outlined text-[16px]">medical_services</span>
-        HEALTHCARE TRANSFORMATION
+        TRANSFORMACIÓN SANITARIA
       </div>
       <h1
         class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg mb-4"
       >
-        Project: IA Dental Detail
+        Proyecto: IA Dental Detail
       </h1>
       <p class="font-body-lg text-body-lg text-on-surface-variant max-w-3xl">
-        A high-precision dental practice management system leveraging automated diagnostic imaging
-        analysis and streamlined patient scheduling workflows for enterprise dental groups.
+        Un sistema de gestión de clínicas dentales de alta precisión que aprovecha el análisis automatizado de imágenes de diagnóstico y flujos de trabajo optimizados de programación de pacientes para grupos dentales empresariales.
       </p>
     </header>
     <!-- Metadata Grid (Responsive Stack) -->
     <div class="grid grid-cols-1 md:grid-cols-3 gap-gutter mb-12">
       <div class="bg-surface-container-low p-md rounded-xl border border-outline-variant/30">
-        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Role</p>
+        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Rol</p>
         <p class="font-body-md text-body-md font-semibold">
-          Lead UI/UX Architect &amp; Full-Stack Engineer
+          Arquitecto UI/UX Principal e Ingeniero Full-Stack
         </p>
       </div>
       <div class="bg-surface-container-low p-md rounded-xl border border-outline-variant/30">
-        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Timeline</p>
-        <p class="font-body-md text-body-md font-semibold">6 Months (Q1 - Q2 2024)</p>
+        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Cronología</p>
+        <p class="font-body-md text-body-md font-semibold">6 Meses (T1 - T2 2024)</p>
       </div>
       <div class="bg-surface-container-low p-md rounded-xl border border-outline-variant/30">
-        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Tech Stack</p>
+        <p class="font-label-md text-label-md text-on-surface-variant uppercase mb-2">Tecnologías</p>
         <div class="flex flex-wrap gap-2">
           <span
             class="bg-white px-2 py-0.5 rounded border border-outline-variant/20 font-mono-code text-mono-code"
@@ -71,11 +70,10 @@ import Footer from '@/components/layout/Footer.vue'
       >
         <div class="flex items-center gap-3 mb-6">
           <span class="material-symbols-outlined text-primary">account_tree</span>
-          <h2 class="font-headline-sm text-headline-sm">System Architecture</h2>
+          <h2 class="font-headline-sm text-headline-sm">Arquitectura del Sistema</h2>
         </div>
         <p class="font-body-md text-body-md text-on-surface-variant mb-8">
-          The core architecture follows a micro-frontend approach, allowing the patient portal,
-          provider dashboard, and diagnostic AI engine to scale independently.
+          La arquitectura principal sigue un enfoque de micro-frontend, permitiendo que el portal del paciente, el panel de proveedores y el motor de IA de diagnóstico escalen independientemente.
         </p>
         <!-- Architecture Diagram Simulation -->
         <div
@@ -84,7 +82,7 @@ import Footer from '@/components/layout/Footer.vue'
           <div
             class="w-full md:w-1/3 p-4 bg-white rounded-lg border border-primary/20 text-center shadow-sm"
           >
-            <p class="font-label-md text-label-md text-primary font-bold">Edge API Gateway</p>
+            <p class="font-label-md text-label-md text-primary font-bold">Puerta de Enlace API Edge</p>
           </div>
           <div class="hidden md:block material-symbols-outlined text-outline-variant">
             trending_flat
@@ -95,7 +93,7 @@ import Footer from '@/components/layout/Footer.vue'
           <div
             class="w-full md:w-1/3 p-4 bg-primary text-on-primary rounded-lg text-center shadow-md"
           >
-            <p class="font-label-md text-label-md font-bold">ML Inference Engine</p>
+            <p class="font-label-md text-label-md font-bold">Motor de Inferencia ML</p>
           </div>
           <div class="hidden md:block material-symbols-outlined text-outline-variant">
             trending_flat
@@ -106,7 +104,7 @@ import Footer from '@/components/layout/Footer.vue'
           <div
             class="w-full md:w-1/3 p-4 bg-white rounded-lg border border-primary/20 text-center shadow-sm"
           >
-            <p class="font-label-md text-label-md text-primary font-bold">Postgres Data Lake</p>
+            <p class="font-label-md text-label-md text-primary font-bold">Data Lake Postgres</p>
           </div>
         </div>
       </div>
@@ -115,22 +113,22 @@ import Footer from '@/components/layout/Footer.vue'
         class="md:col-span-4 bg-primary text-on-primary rounded-2xl p-lg flex flex-col justify-between"
       >
         <div>
-          <h3 class="font-headline-sm text-headline-sm mb-4">Core Impact</h3>
+          <h3 class="font-headline-sm text-headline-sm mb-4">Impacto Principal</h3>
           <div class="space-y-6">
             <div>
               <p class="text-3xl font-bold">45%</p>
               <p class="font-label-md text-label-md opacity-80 uppercase">
-                Reduction in admin time
+                Reducción en tiempo de administración
               </p>
             </div>
             <div>
               <p class="text-3xl font-bold">98.2%</p>
-              <p class="font-label-md text-label-md opacity-80 uppercase">Diagnostic Accuracy</p>
+              <p class="font-label-md text-label-md opacity-80 uppercase">Precisión Diagnóstica</p>
             </div>
             <div>
               <p class="text-3xl font-bold">2.4s</p>
               <p class="font-label-md text-label-md opacity-80 uppercase">
-                P99 Latency for Image Processing
+                Latencia P99 para Procesamiento de Imágenes
               </p>
             </div>
           </div>
@@ -138,7 +136,7 @@ import Footer from '@/components/layout/Footer.vue'
         <button
           class="mt-8 w-full py-3 bg-white text-primary rounded-lg font-label-md text-label-md font-bold hover:bg-opacity-90 transition-all uppercase tracking-wider"
         >
-          View Full Case Study
+          Ver Caso de Estudio Completo
         </button>
       </div>
       <!-- Challenges (Full Width on Mobile) -->
@@ -147,25 +145,23 @@ import Footer from '@/components/layout/Footer.vue'
       >
         <div class="flex items-center gap-3 mb-6">
           <span class="material-symbols-outlined text-error">warning</span>
-          <h2 class="font-headline-sm text-headline-sm">Technical Challenges</h2>
+          <h2 class="font-headline-sm text-headline-sm">Retos Técnicos</h2>
         </div>
         <div class="grid grid-cols-1 md:grid-cols-2 gap-lg">
           <div class="space-y-4">
             <h4 class="font-body-md text-body-md font-bold text-on-surface">
-              DICOM Image Processing
+              Procesamiento de Imágenes DICOM
             </h4>
             <p class="font-body-md text-body-md text-on-surface-variant">
-              Converting proprietary dental imaging formats into web-standard textures for real-time
-              annotation while preserving sub-millimeter clinical precision.
+              Conversión de formatos de imágenes dentales patentados en texturas web estándar para anotación en tiempo real conservando precisión clínica submilimétrica.
             </p>
           </div>
           <div class="space-y-4">
             <h4 class="font-body-md text-body-md font-bold text-on-surface">
-              HIPAA Compliance at Scale
+              Cumplimiento HIPAA a Escala
             </h4>
             <p class="font-body-md text-body-md text-on-surface-variant">
-              Implementing zero-knowledge encryption for PII across a distributed architecture with
-              minimal overhead on regional database clusters.
+              Implementación de cifrado de conocimiento cero para PII en una arquitectura distribuida con una sobrecarga mínima en los clústeres de bases de datos regionales.
             </p>
           </div>
         </div>
@@ -177,7 +173,7 @@ import Footer from '@/components/layout/Footer.vue'
         <div class="flex items-center justify-between mb-6">
           <div class="flex items-center gap-3">
             <span class="material-symbols-outlined text-primary-fixed">code</span>
-            <h2 class="font-headline-sm text-headline-sm text-white">Inference Logic</h2>
+            <h2 class="font-headline-sm text-headline-sm text-white">Lógica de Inferencia</h2>
           </div>
           <div class="flex gap-1.5">
             <div class="w-3 h-3 rounded-full bg-red-500/50"></div>

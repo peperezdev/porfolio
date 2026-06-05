@@ -38,7 +38,7 @@ const anyoActual = new Date().getFullYear()
         <a
           class="text-on-surface-variant hover:text-secondary hover:opacity-80 transition-opacity font-code-sm text-code-sm"
           href="#"
-          >Contact</a
+          >Contacto</a
         >
       </div>
     </div>

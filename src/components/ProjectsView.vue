@@ -13,17 +13,16 @@ import Footer from '@/components/layout/Footer.vue'
           <span
             class="inline-block px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md mb-6"
           >
-            FRONTEND ARCHITECT &amp; AI ENGINEER
+            ARQUITECTO FRONTEND E INGENIERO DE IA
           </span>
           <h1
             class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-6 leading-tight"
           >
-            Engineering complex interfaces with
-            <span class="text-primary">technical precision</span> and AI-driven workflows.
+            Ingeniería de interfaces complejas con
+            <span class="text-primary">precisión técnica</span> y flujos de trabajo impulsados por IA.
           </h1>
           <p class="font-body-lg text-body-lg text-on-surface-variant mb-8 max-w-xl">
-            Specializing in high-performance dashboard architectures, design systems, and seamless
-            AI integrations for mission-critical software environments.
+            Especializado en arquitecturas de dashboards de alto rendimiento, sistemas de diseño e integraciones de IA fluidas para entornos de software de misión crítica.
           </p>
           <div class="flex flex-wrap gap-4">
             <button
@@ -60,9 +59,9 @@ import Footer from '@/components/layout/Footer.vue'
                 >
               </div>
               <div>
-                <p class="font-label-md text-label-md text-on-surface-variant">Core Reliability</p>
+                <p class="font-label-md text-label-md text-on-surface-variant">Fiabilidad Principal</p>
                 <p class="font-headline-sm text-headline-sm text-on-surface">
-                  99.9% Uptime Architecture
+                  Arquitectura con 99.9% de Tiempo de Actividad
                 </p>
               </div>
             </div>
@@ -73,12 +72,12 @@ import Footer from '@/components/layout/Footer.vue'
     <!-- Bento Grid Projects -->
     <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
       <div class="flex items-center justify-between mb-12">
-        <h2 class="font-headline-md text-headline-md text-on-surface">Selected Projects</h2>
+        <h2 class="font-headline-md text-headline-md text-on-surface">Proyectos Seleccionados</h2>
         <div class="hidden sm:flex h-[1px] flex-grow mx-8 bg-outline-variant/30"></div>
         <button
           class="text-primary font-label-md text-label-md flex items-center gap-2 hover:underline"
         >
-          EXPLORE ALL <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
+          EXPLORAR TODOS <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
         </button>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
@@ -96,20 +95,18 @@ import Footer from '@/components/layout/Footer.vue'
               <div class="absolute top-4 left-4 flex gap-2">
                 <span
                   class="px-3 py-1 bg-white/90 backdrop-blur shadow-sm rounded-full font-label-md text-label-md text-on-surface"
-                  >Web App</span
+                  >Aplicación Web</span
                 >
                 <span
                   class="px-3 py-1 bg-primary/90 backdrop-blur shadow-sm rounded-full font-label-md text-label-md text-on-white text-white"
-                  >Featured</span
+                  >Destacado</span
                 >
               </div>
             </div>
             <div class="p-8">
               <h3 class="font-headline-md text-headline-md text-on-surface mb-2">IA Dental</h3>
               <p class="font-body-md text-body-md text-on-surface-variant mb-6 max-w-2xl">
-                A comprehensive clinical management system for specialized dental practices.
-                Engineered with a focus on high-density data visualization and rapid patient
-                charting.
+                Un sistema integral de gestión clínica para consultas dentales especializadas. Diseñado con un enfoque en visualización de datos de alta densidad y gráficos rápidos de pacientes.
               </p>
               <div class="flex flex-wrap gap-2 mb-8">
                 <span
@@ -126,7 +123,7 @@ import Footer from '@/components/layout/Footer.vue'
                 >
               </div>
               <button class="font-label-md text-label-md text-primary flex items-center gap-2">
-                CASE STUDY <span class="material-symbols-outlined text-[16px]">open_in_new</span>
+                CASO DE ESTUDIO <span class="material-symbols-outlined text-[16px]">open_in_new</span>
               </button>
             </div>
           </div>
@@ -155,8 +152,7 @@ import Footer from '@/components/layout/Footer.vue'
             <div class="p-8 flex-grow flex flex-col">
               <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">LinkCurt</h3>
               <p class="font-body-md text-body-md text-on-surface-variant mb-6">
-                Enterprise-grade link management and real-time analytics dashboard for marketing
-                teams.
+                Gestión de enlaces de nivel empresarial y panel de analíticas en tiempo real para equipos de marketing.
               </p>
               <div class="mt-auto">
                 <div class="flex flex-wrap gap-2 mb-6">
@@ -170,7 +166,7 @@ import Footer from '@/components/layout/Footer.vue'
                   >
                 </div>
                 <button class="font-label-md text-label-md text-primary flex items-center gap-2">
-                  VIEW PROJECT
+                  VER PROYECTO
                   <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                 </button>
               </div>
@@ -192,8 +188,7 @@ import Footer from '@/components/layout/Footer.vue'
             </div>
             <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">DataCore Engine</h3>
             <p class="font-body-md text-body-md text-on-surface-variant">
-              An open-source library for managing reactive state in massive-scale React
-              applications. Optimized for zero-latency UI updates.
+              Una librería de código abierto para gestionar estado reactivo en aplicaciones React a escala masiva. Optimizada para actualizaciones de UI sin latencia.
             </p>
           </div>
         </div>
@@ -207,11 +202,11 @@ import Footer from '@/components/layout/Footer.vue'
           <div class="grid grid-cols-2 gap-8 relative z-10">
             <div>
               <p class="font-headline-lg text-headline-lg text-indigo-vibrant">124+</p>
-              <p class="font-label-md text-label-md text-slate-400">DEPLOYED PROJECTS</p>
+              <p class="font-label-md text-label-md text-slate-400">PROYECTOS DESPLEGADOS</p>
             </div>
             <div>
               <p class="font-headline-lg text-headline-lg text-indigo-vibrant">9k+</p>
-              <p class="font-label-md text-label-md text-slate-400">COMMIT COUNT</p>
+              <p class="font-label-md text-label-md text-slate-400">CANTIDAD DE COMMITS</p>
             </div>
           </div>
         </div>

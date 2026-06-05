@@ -11,18 +11,16 @@ import Footer from '@/components/layout/Footer.vue'
       <div class="order-2 lg:order-1">
         <span
           class="inline-block px-3 py-1 bg-primary-fixed text-on-primary-fixed font-label-md text-label-md rounded-full mb-md"
-          >WHO I AM</span
+          >QUIÉN SOY</span
         >
         <h1
           class="font-headline-lg-mobile md:font-headline-lg text-headline-lg-mobile md:text-headline-lg text-on-surface mb-md"
         >
-          Architecting Neural Interfaces &amp;
-          <span class="text-primary">Scalable AI Systems.</span>
+          Arquitectando Interfaces Neuronales y
+          <span class="text-primary">Sistemas de IA Escalables.</span>
         </h1>
         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-lg">
-          I bridge the gap between complex machine learning models and high-performance frontend
-          architectures. With a decade of experience in systems engineering, my focus is on building
-          interfaces that don't just display data, but orchestrate intelligence.
+          Cierro la brecha entre modelos complejos de aprendizaje automático y arquitecturas frontend de alto rendimiento. Con una década de experiencia en ingeniería de sistemas, mi enfoque es construir interfaces que no solo muestran datos, sino que orquestan inteligencia.
         </p>
         <div class="flex flex-wrap gap-md">
           <button
@@ -47,9 +45,9 @@ import Footer from '@/components/layout/Footer.vue'
           src="https://lh3.googleusercontent.com/aida-public/AB6AXuBBl_6keymV9Qq7bH-ENmtr3AJ8zJ3WzwL_GYQSgGhdeerAG85dCGu39L0z-EHsJHRbE_dpibebUYfK08qCsW44jMLQebSl9MFVAbG90nKCVxPq_HiAlH9dsM5LvAMJLN3RIc7ovSC8PCSeXvbmz7JZru3aYYgqAbPGfQZEKAhxiQD0ERJ9iGlxJjqK3TBurjDafZCaSsWBF0El0vuAiPsJWBZu7h0qkJMdwmmPaXyey79rqOhgP5qMW1o2AJtJJIcL4V0Du9zSLmE"
         />
         <div class="absolute bottom-md right-md glass-panel p-md border border-white/40 rounded-lg">
-          <p class="font-mono-code text-mono-code text-primary">Location: San Francisco, CA</p>
+          <p class="font-mono-code text-mono-code text-primary">Ubicación: San Francisco, CA</p>
           <p class="font-label-md text-label-md text-on-surface-variant">
-            Available for remote lead roles
+            Disponible para roles de liderazgo en remoto
           </p>
         </div>
       </div>
@@ -58,9 +56,9 @@ import Footer from '@/components/layout/Footer.vue'
     <section class="mb-32">
       <div class="flex flex-col md:flex-row justify-between items-end mb-lg gap-md">
         <div>
-          <h2 class="font-headline-md text-headline-md text-on-surface">Core Stack</h2>
+          <h2 class="font-headline-md text-headline-md text-on-surface">Stack Principal</h2>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Technological foundations I rely on daily.
+            Fundamentos tecnológicos en los que confío a diario.
           </p>
         </div>
         <div class="font-label-md text-label-md text-outline">v4.2.0 Stable</div>
@@ -76,10 +74,9 @@ import Footer from '@/components/layout/Footer.vue'
               style="font-variation-settings: 'opsz' 48"
               >terminal</span
             >
-            <h3 class="font-headline-sm text-headline-sm mb-sm">Fullstack Architecture</h3>
+            <h3 class="font-headline-sm text-headline-sm mb-sm">Arquitectura Fullstack</h3>
             <p class="font-body-md text-body-md text-on-surface-variant">
-              Building end-to-end systems with TypeScript, Rust, and Go. Specializing in
-              high-throughput APIs and distributed state management.
+              Construcción de sistemas end-to-end con TypeScript, Rust y Go. Especializado en APIs de alto rendimiento y gestión de estado distribuido.
             </p>
           </div>
           <div class="mt-xl flex flex-wrap gap-sm">
@@ -101,20 +98,20 @@ import Footer from '@/components/layout/Footer.vue'
         <div class="bg-surface-container-low border border-outline-variant rounded-xl p-md">
           <div class="flex items-center gap-sm mb-sm">
             <span class="material-symbols-outlined text-secondary">psychology</span>
-            <h4 class="font-label-md text-label-md font-bold">ML &amp; AI</h4>
+            <h4 class="font-label-md text-label-md font-bold">ML e IA</h4>
           </div>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Vector databases, LLM orchestration, and PyTorch fine-tuning.
+            Bases de datos vectoriales, orquestación de LLM y fine-tuning de PyTorch.
           </p>
         </div>
         <!-- Bento Item 3 -->
         <div class="bg-surface-container-low border border-outline-variant rounded-xl p-md">
           <div class="flex items-center gap-sm mb-sm">
             <span class="material-symbols-outlined text-secondary">layers</span>
-            <h4 class="font-label-md text-label-md font-bold">UI Frameworks</h4>
+            <h4 class="font-label-md text-label-md font-bold">Frameworks UI</h4>
           </div>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            React, Tailwind CSS, and custom Design System development.
+            React, Tailwind CSS y desarrollo de Sistemas de Diseño personalizados.
           </p>
         </div>
         <!-- Bento Item 4 (Horizontal on desktop) -->
@@ -122,7 +119,7 @@ import Footer from '@/components/layout/Footer.vue'
           class="lg:col-span-2 bg-white border border-outline-variant rounded-xl p-md flex items-center justify-between"
         >
           <div>
-            <h4 class="font-label-md text-label-md font-bold text-on-surface">Cloud Native</h4>
+            <h4 class="font-label-md text-label-md font-bold text-on-surface">Nativo de la Nube</h4>
             <p class="font-body-md text-body-md text-on-surface-variant">
               Kubernetes, Docker, AWS (Lambda/S3/EC2)
             </p>
@@ -140,8 +137,7 @@ import Footer from '@/components/layout/Footer.vue'
           Operational Methodology
         </h2>
         <p class="font-body-md text-body-md text-on-surface-variant">
-          My approach to solving engineering challenges involves a strict iterative process focused
-          on reliability and speed.
+          Mi enfoque para resolver retos de ingeniería implica un riguroso proceso iterativo centrado en la fiabilidad y la velocidad.
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
@@ -160,11 +156,10 @@ import Footer from '@/components/layout/Footer.vue'
             Analyze &amp; Scope
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Deconstructing business requirements into technical specifications with a focus on edge
-            cases and scalability constraints.
+            Deconstrucción de requisitos comerciales en especificaciones técnicas con un enfoque en casos extremos y limitaciones de escalabilidad.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
-            <span class="font-label-md text-label-md text-secondary">KPI: Precision</span>
+            <span class="font-label-md text-label-md text-secondary">KPI: Precisión</span>
           </div>
         </div>
         <!-- Step 2 -->
@@ -182,11 +177,10 @@ import Footer from '@/components/layout/Footer.vue'
             Prototype &amp; Iterate
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Rapid creation of functional MVPs followed by data-driven iteration cycles to refine
-            performance and UX flow.
+            Creación rápida de MVPs funcionales seguida de ciclos de iteración basados en datos para refinar el rendimiento y el flujo de UX.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
-            <span class="font-label-md text-label-md text-secondary">KPI: Velocity</span>
+            <span class="font-label-md text-label-md text-secondary">KPI: Velocidad</span>
           </div>
         </div>
         <!-- Step 3 -->
@@ -204,11 +198,10 @@ import Footer from '@/components/layout/Footer.vue'
             Deploy &amp; Observe
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Automated deployment pipelines with rigorous observability hooks to monitor real-time
-            system health and user behavior.
+            Pipelines de despliegue automatizados con rigurosos ganchos de observabilidad para monitorizar la salud del sistema en tiempo real y el comportamiento del usuario.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
-            <span class="font-label-md text-label-md text-secondary">KPI: Stability</span>
+            <span class="font-label-md text-label-md text-secondary">KPI: Estabilidad</span>
           </div>
         </div>
       </div>
@@ -220,25 +213,25 @@ import Footer from '@/components/layout/Footer.vue'
       <div class="text-center">
         <div class="font-headline-lg text-headline-lg text-primary">10+</div>
         <div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
-          Years Experience
+          Años de Experiencia
         </div>
       </div>
       <div class="text-center">
         <div class="font-headline-lg text-headline-lg text-primary">150+</div>
         <div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
-          Projects Shipped
+          Proyectos Entregados
         </div>
       </div>
       <div class="text-center">
         <div class="font-headline-lg text-headline-lg text-primary">24k</div>
         <div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
-          Github Commits
+          Commits de Github
         </div>
       </div>
       <div class="text-center">
         <div class="font-headline-lg text-headline-lg text-primary">12</div>
         <div class="font-label-md text-label-md text-on-surface-variant uppercase tracking-wider">
-          Open Source Libs
+          Librerías Open Source
         </div>
       </div>
     </section>
@@ -246,11 +239,10 @@ import Footer from '@/components/layout/Footer.vue'
     <section class="mb-32 bg-primary text-on-primary rounded-3xl p-xl overflow-hidden relative">
       <div class="relative z-10 max-w-xl">
         <h2 class="font-headline-lg text-headline-lg mb-md">
-          Ready to build the future of AI interfaces?
+          ¿Listo para construir el futuro de las interfaces de IA?
         </h2>
         <p class="font-body-lg text-body-lg mb-lg opacity-90">
-          I'm always looking for ambitious projects and talented teams to collaborate with. Let's
-          discuss your next engineering challenge.
+          Siempre busco proyectos ambiciosos y equipos talentosos con los que colaborar. Hablemos de tu próximo reto de ingeniería.
         </p>
         <div class="flex gap-md">
           <button
