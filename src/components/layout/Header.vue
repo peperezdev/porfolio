@@ -5,6 +5,8 @@ import { useRoute } from 'vue-router'
 
 import { useTheme } from '@/composables/useTheme'
 
+import urlIlustration from '@/assets/svg/logo.svg'
+
 const { theme, isDark, toggleTheme } = useTheme()
 
 const isMenuOpen = ref(false)
@@ -32,34 +34,9 @@ watch(
       <div
         class="flex justify-between items-center h-16 px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto"
       >
-        <div
-          class="font-label-caps text-label-caps font-bold text-on-surface tracking-widest uppercase"
-        >
+        <div class="hidden md:block">
           <router-link :to="{ name: 'Home' }">
-            <svg
-              width="60"
-              height="60"
-              viewBox="0 0 200 200"
-              fill="none"
-              xmlns="http://www.w3.org/2000/svg"
-            >
-              <rect width="200" height="200" rx="40" fill="#0c0f0f" />
-              <path
-                d="M60 140V60H110C126.569 60 140 73.4315 140 90C140 106.569 126.569 120 110 120H80"
-                stroke="#2e5bff"
-                stroke-width="12"
-                stroke-linecap="round"
-                stroke-linejoin="round"
-              />
-              <path d="M80 140L80 120" stroke="#2e5bff" stroke-width="12" stroke-linecap="round" />
-              <circle cx="140" cy="140" r="10" fill="#2e5bff" />
-              <path
-                d="M160 60L145 75M160 60L175 75"
-                stroke="#38393a"
-                stroke-width="8"
-                stroke-linecap="round"
-              />
-            </svg>
+            <img :src="urlIlustration" alt="Logo" class="w-1/4 h-1/4">
           </router-link>
         </div>
 
