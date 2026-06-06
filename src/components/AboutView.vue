@@ -20,7 +20,10 @@ import Footer from '@/components/layout/Footer.vue'
           <span class="text-primary">Sistemas de IA Escalables.</span>
         </h1>
         <p class="font-body-lg text-body-lg text-on-surface-variant max-w-xl mb-lg">
-          Cierro la brecha entre modelos complejos de aprendizaje automático y arquitecturas frontend de alto rendimiento. Con una década de experiencia en ingeniería de sistemas, mi enfoque es construir interfaces que no solo muestran datos, sino que orquestan inteligencia.
+          Cierro la brecha entre modelos complejos de aprendizaje automático y arquitecturas
+          frontend de alto rendimiento. Con una década de experiencia en ingeniería de sistemas, mi
+          enfoque es construir interfaces que no solo muestran datos, sino que orquestan
+          inteligencia.
         </p>
         <div class="flex flex-wrap gap-md">
           <button
@@ -36,7 +39,7 @@ import Footer from '@/components/layout/Footer.vue'
         </div>
       </div>
       <div
-        class="order-1 lg:order-2 relative aspect-[4/3] md:aspect-square lg:aspect-auto h-full min-h-[400px] rounded-xl overflow-hidden shadow-sm border border-outline-variant"
+        class="order-1 lg:order-2 relative aspect-[4/3] md:aspect-square lg:aspect-auto h-full min-h-[250px] md:min-h-[400px] rounded-xl overflow-hidden shadow-sm border border-outline-variant"
       >
         <img
           alt="Engineer Workspace"
@@ -76,7 +79,8 @@ import Footer from '@/components/layout/Footer.vue'
             >
             <h3 class="font-headline-sm text-headline-sm mb-sm">Arquitectura Fullstack</h3>
             <p class="font-body-md text-body-md text-on-surface-variant">
-              Construcción de sistemas end-to-end con TypeScript, Rust y Go. Especializado en APIs de alto rendimiento y gestión de estado distribuido.
+              Construcción de sistemas end-to-end con TypeScript, Rust y Go. Especializado en APIs
+              de alto rendimiento y gestión de estado distribuido.
             </p>
           </div>
           <div class="mt-xl flex flex-wrap gap-sm">
@@ -137,7 +141,8 @@ import Footer from '@/components/layout/Footer.vue'
           Operational Methodology
         </h2>
         <p class="font-body-md text-body-md text-on-surface-variant">
-          Mi enfoque para resolver retos de ingeniería implica un riguroso proceso iterativo centrado en la fiabilidad y la velocidad.
+          Mi enfoque para resolver retos de ingeniería implica un riguroso proceso iterativo
+          centrado en la fiabilidad y la velocidad.
         </p>
       </div>
       <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-lg">
@@ -156,7 +161,8 @@ import Footer from '@/components/layout/Footer.vue'
             Analyze &amp; Scope
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Deconstrucción de requisitos comerciales en especificaciones técnicas con un enfoque en casos extremos y limitaciones de escalabilidad.
+            Deconstrucción de requisitos comerciales en especificaciones técnicas con un enfoque en
+            casos extremos y limitaciones de escalabilidad.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
             <span class="font-label-md text-label-md text-secondary">KPI: Precisión</span>
@@ -177,7 +183,8 @@ import Footer from '@/components/layout/Footer.vue'
             Prototype &amp; Iterate
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Creación rápida de MVPs funcionales seguida de ciclos de iteración basados en datos para refinar el rendimiento y el flujo de UX.
+            Creación rápida de MVPs funcionales seguida de ciclos de iteración basados en datos para
+            refinar el rendimiento y el flujo de UX.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
             <span class="font-label-md text-label-md text-secondary">KPI: Velocidad</span>
@@ -198,7 +205,8 @@ import Footer from '@/components/layout/Footer.vue'
             Deploy &amp; Observe
           </h5>
           <p class="font-body-md text-body-md text-on-surface-variant">
-            Pipelines de despliegue automatizados con rigurosos ganchos de observabilidad para monitorizar la salud del sistema en tiempo real y el comportamiento del usuario.
+            Pipelines de despliegue automatizados con rigurosos ganchos de observabilidad para
+            monitorizar la salud del sistema en tiempo real y el comportamiento del usuario.
           </p>
           <div class="mt-md border-t border-outline-variant/20 pt-md">
             <span class="font-label-md text-label-md text-secondary">KPI: Estabilidad</span>
@@ -242,7 +250,8 @@ import Footer from '@/components/layout/Footer.vue'
           ¿Listo para construir el futuro de las interfaces de IA?
         </h2>
         <p class="font-body-lg text-body-lg mb-lg opacity-90">
-          Siempre busco proyectos ambiciosos y equipos talentosos con los que colaborar. Hablemos de tu próximo reto de ingeniería.
+          Siempre busco proyectos ambiciosos y equipos talentosos con los que colaborar. Hablemos de
+          tu próximo reto de ingeniería.
         </p>
         <div class="flex gap-md">
           <button
@@ -266,6 +275,4 @@ import Footer from '@/components/layout/Footer.vue'
   <Footer />
 </template>
 
-<style scoped>
-
-</style>
+<style scoped></style>
