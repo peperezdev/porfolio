@@ -1,48 +1,55 @@
-# porfolio
+# Portfolio
 
-This template should help get you started developing with Vue 3 in Vite.
+Un proyecto de portfolio profesional moderno construido con tecnologías de vanguardia para garantizar un alto rendimiento y una excelente experiencia de usuario.
 
-## Recommended IDE Setup
+## 🛠 Tecnologías Principales
 
-[VS Code](https://code.visualstudio.com/) + [Vue (Official)](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur).
+- **[Vue 3](https://vuejs.org/)** (Composition API & `<script setup>`)
+- **[Vite](https://vitejs.dev/)** (Empaquetador y servidor de desarrollo ultrarrápido)
+- **[Tailwind CSS v4](https://tailwindcss.com/)** (Framework CSS de utilidades)
+- **[DaisyUI v5](https://daisyui.com/)** (Biblioteca de componentes UI para Tailwind)
+- **[TypeScript](https://www.typescriptlang.org/)** (Tipado estático seguro)
+- **[Pinia](https://pinia.vuejs.org/)** (Gestor de estado)
+- **[Vue Router](https://router.vuejs.org/)** (Enrutamiento)
 
-## Recommended Browser Setup
+## 📦 Instalación y Configuración
 
-- Chromium-based browsers (Chrome, Edge, Brave, etc.):
-  - [Vue.js devtools](https://chromewebstore.google.com/detail/vuejs-devtools/nhdogjmejiglipccpnnnanhbledajbpd)
-  - [Turn on Custom Object Formatter in Chrome DevTools](http://bit.ly/object-formatters)
-- Firefox:
-  - [Vue.js devtools](https://addons.mozilla.org/en-US/firefox/addon/vue-js-devtools/)
-  - [Turn on Custom Object Formatter in Firefox DevTools](https://fxdx.dev/firefox-devtools-custom-object-formatters/)
-
-## Type Support for `.vue` Imports in TS
-
-TypeScript cannot handle type information for `.vue` imports by default, so we replace the `tsc` CLI with `vue-tsc` for type checking. In editors, we need [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) to make the TypeScript language service aware of `.vue` types.
-
-## Customize configuration
-
-See [Vite Configuration Reference](https://vite.dev/config/).
-
-## Project Setup
+El proyecto utiliza [pnpm](https://pnpm.io/) como gestor de paquetes. Asegúrate de tenerlo instalado.
 
 ```sh
+# Instalar dependencias
 pnpm install
 ```
 
-### Compile and Hot-Reload for Development
+## 🚀 Scripts de Desarrollo
 
+### Servidor de Desarrollo (Hot-Reload)
 ```sh
 pnpm dev
 ```
 
-### Type-Check, Compile and Minify for Production
-
+### Compilar y Minificar para Producción
 ```sh
 pnpm build
 ```
 
-### Lint with [ESLint](https://eslint.org/)
+### Comprobación de Tipos (Type-Check)
+```sh
+pnpm type-check
+```
 
+### Linter (ESLint & Oxlint)
 ```sh
 pnpm lint
 ```
+
+## 🎨 Sistema de Temas y Estilos
+
+Este proyecto utiliza **Tailwind CSS v4** integrado directamente mediante el plugin de Vite (`@tailwindcss/vite`). La configuración de utilidades y plugins (como DaisyUI) se realiza de forma nativa en el CSS principal (`src/assets/styles/style.css`), aprovechando el nuevo sistema de escaneo automático de la versión 4.
+
+El sistema de colores personalizados y variables de diseño global está definido y documentado en `src/assets/styles/themes.css`.
+
+## ⚙️ Entorno de Desarrollo Recomendado
+
+- [VS Code](https://code.visualstudio.com/)
+- [Vue - Official Extension](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (Desactivar Vetur).

@@ -1,9 +1,11 @@
 import { createRouter, createWebHistory } from 'vue-router'
 
+
 import HomeView from '@/components/HomeView.vue'
 import ProjectsView from '@/components/ProjectsView.vue'
 import AboutView from '@/components/AboutView.vue'
 import ThemeSwitcher from '@/components/ThemeSwitcher.vue'
+import ProjectView from '@/components/projectView.vue'
 
 const routes = [
     {
@@ -36,6 +38,14 @@ const routes = [
         component: ThemeSwitcher,
         meta: {
             title: 'Patron web',
+        },
+    },
+    {
+        path: '/proyecto',
+        name: 'Project',
+        component: ProjectView,
+        meta: {
+            title: 'Proyecto',
         },
     },
 ]

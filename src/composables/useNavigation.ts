@@ -7,11 +7,13 @@ export function useNavigation() {
     const goToAbout = () => router.push({ name: 'About' })
     const goToProjects = () => router.push({ name: 'Projects' })
     const goToPatron = () => router.push({ name: 'Patron' })
+    const goToProject = () => router.push({ name: 'Project' })
 
     return {
         goToHome,
         goToAbout,
         goToProjects,
         goToPatron,
+        goToProject
     }
 }

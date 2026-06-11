@@ -71,7 +71,7 @@ import Footer from '@/components/layout/Footer.vue'
             </div>
         </div>
         <!-- Main Content (Bento Grid Style) -->
-        <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
+        <div class="grid grid-cols-1 md:grid-cols-12 gap-3" >
             <!-- Hero Image -->
             <div
                 class="md:col-span-12 h-64 md:h-96 rounded-2xl overflow-hidden relative group mb-6"
@@ -87,7 +87,7 @@ import Footer from '@/components/layout/Footer.vue'
             </div>
             <!-- Architecture (Full Width on Mobile) -->
             <div
-                class="md:col-span-8 bg-surface-container-lowest border border-outline-variant/50 rounded-2xl p-lg shadow-sm p-3 mb-6"
+                class="md:col-span-8 bg-surface-container-lowest border border-outline-variant/50 rounded-2xl p-lg shadow-sm p-3 mb-6 gap-3"
             >
                 <div class="flex items-center gap-3 mb-6">
                     <span class="material-symbols-outlined text-primary">account_tree</span>

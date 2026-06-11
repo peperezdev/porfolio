@@ -1,6 +1,7 @@
 <script setup lang="ts">
 import Header from '@/components/layout/Header.vue'
 import Footer from '@/components/layout/Footer.vue'
+import CardProject from '@/components/layout/projects/CardProject.vue'
 </script>
 
 <template>
@@ -8,7 +9,7 @@ import Footer from '@/components/layout/Footer.vue'
     <main class="pt-10 pb-25">
         <!-- Hero Section -->
         <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto mb-20">
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter items-center">
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 items-center">
                 <div class="md:col-span-7">
                     <span
                         class="inline-block px-3 py-1 rounded-full bg-primary-fixed text-on-primary-fixed font-label-md text-label-md mb-6"
@@ -40,7 +41,7 @@ import Footer from '@/components/layout/Footer.vue'
                         </button>
                     </div>
                 </div>
-                <div class="md:col-span-5 relative mt-12 md:mt-0">
+                <div class="md:col-span-5 relative md:mt-0">
                     <div class="aspect-square rounded-xl overflow-hidden shadow-2xl">
                         <img
                             class="w-full h-full object-cover"
@@ -75,7 +76,7 @@ import Footer from '@/components/layout/Footer.vue'
             </div>
         </section>
         <!-- Bento Grid Projects -->
-        <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
+        <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto mb-6">
             <div class="flex items-center justify-between mb-12">
                 <h2 class="font-headline-md text-headline-md text-on-surface">
                     Proyectos Seleccionados
@@ -88,122 +89,13 @@ import Footer from '@/components/layout/Footer.vue'
                     <span class="material-symbols-outlined text-[16px]">arrow_forward</span>
                 </button>
             </div>
-            <div class="grid grid-cols-1 md:grid-cols-12 gap-gutter">
-                <!-- IA Dental - Large Feature -->
-                <div class="md:col-span-8 group">
-                    <div
-                        class="bg-surface-container-lowest border border-outline-variant/60 rounded-xl overflow-hidden hover:border-primary/40 transition-all duration-300 h-full flex flex-col"
-                    >
-                        <div class="relative h-64 md:h-96 overflow-hidden">
-                            <img
-                                class="w-full h-full object-cover group-hover:scale-105 transition-transform duration-500"
-                                data-alt="A sophisticated medical software interface for dental specialists, displayed on a high-definition monitor. The UI features detailed 3D dental scans, patient data charts, and clinical scheduling tools. The design is clean and airy with high-contrast light mode styling, utilizing a professional color scheme of clinical white, soft cerulean, and indigo accents. The overall mood is sterile, reliable, and technologically advanced for a healthcare environment."
-                                src="https://lh3.googleusercontent.com/aida-public/AB6AXuDYOP8xdsBqnG15qvRacSW9hbTRTYQwMWC5SkaZ9Ab1CVarjBwlu83rjl4oSuUQvwK3CDCITG1H97PPV0ozTBWwQVOUa4PqB8XJexd-bqEc-KArorFkilweb1JTfULRiVG9CuqFkECxGB64UvMR-GJXC06KjOgMWITsU0LylxbUlwGCBMiY9LlXPKhPkc1F1joJazanHm9-PAR8WU6-u0sjvRSh8NT4yULCfVYGPeG6L7KGzcc8aSRjsvH5u0qEcc_M5hvS59n-6gI"
-                            />
-                            <div class="absolute top-4 left-4 flex gap-2">
-                                <span
-                                    class="px-3 py-1 bg-white/90 backdrop-blur shadow-sm rounded-full font-label-md text-label-md text-on-surface"
-                                    >Aplicación Web</span
-                                >
-                                <span
-                                    class="px-3 py-1 bg-primary/90 backdrop-blur shadow-sm rounded-full font-label-md text-label-md text-on-white text-white"
-                                    >Destacado</span
-                                >
-                            </div>
-                        </div>
-                        <div class="p-8">
-                            <h3 class="font-headline-md text-headline-md text-on-surface mb-2">
-                                IA Dental
-                            </h3>
-                            <p
-                                class="font-body-md text-body-md text-on-surface-variant mb-6 max-w-2xl"
-                            >
-                                Un sistema integral de gestión clínica para consultas dentales
-                                especializadas. Diseñado con un enfoque en visualización de datos de
-                                alta densidad y gráficos rápidos de pacientes.
-                            </p>
-                            <div class="flex flex-wrap gap-2 mb-8">
-                                <span
-                                    class="font-mono-code text-mono-code bg-surface-container text-on-surface-variant px-3 py-1 rounded"
-                                    >React</span
-                                >
-                                <span
-                                    class="font-mono-code text-mono-code bg-surface-container text-on-surface-variant px-3 py-1 rounded"
-                                    >TypeScript</span
-                                >
-                                <span
-                                    class="font-mono-code text-mono-code bg-surface-container text-on-surface-variant px-3 py-1 rounded"
-                                    >D3.js</span
-                                >
-                            </div>
-                            <button
-                                class="font-label-md text-label-md text-primary flex items-center gap-2"
-                            >
-                                CASO DE ESTUDIO
-                                <span class="material-symbols-outlined text-[16px]"
-                                    >open_in_new</span
-                                >
-                            </button>
-                        </div>
-                    </div>
-                </div>
-                <!-- LinkCurt - Sidebar Feature -->
-                <div class="md:col-span-4 group">
-                    <div
-                        class="bg-surface-container-lowest border border-outline-variant/60 rounded-xl overflow-hidden hover:border-primary/40 transition-all duration-300 h-full flex flex-col"
-                    >
-                        <div class="relative h-64 overflow-hidden bg-surface-container-high/20">
-                            <div class="absolute inset-0 flex items-center justify-center p-8">
-                                <div
-                                    class="w-full bg-white rounded-lg shadow-xl border border-outline-variant/20 p-4 transform -rotate-3 group-hover:rotate-0 transition-transform duration-300"
-                                >
-                                    <div class="flex items-center gap-3 mb-4">
-                                        <div
-                                            class="w-8 h-8 rounded-full bg-primary-container"
-                                        ></div>
-                                        <div
-                                            class="h-2 w-24 bg-surface-container-highest rounded"
-                                        ></div>
-                                    </div>
-                                    <div class="space-y-2">
-                                        <div class="h-2 w-full bg-surface-container rounded"></div>
-                                        <div class="h-2 w-4/5 bg-surface-container rounded"></div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="p-8 flex-grow flex flex-col">
-                            <h3 class="font-headline-sm text-headline-sm text-on-surface mb-2">
-                                LinkCurt
-                            </h3>
-                            <p class="font-body-md text-body-md text-on-surface-variant mb-6">
-                                Gestión de enlaces de nivel empresarial y panel de analíticas en
-                                tiempo real para equipos de marketing.
-                            </p>
-                            <div class="mt-auto">
-                                <div class="flex flex-wrap gap-2 mb-6">
-                                    <span
-                                        class="font-mono-code text-mono-code bg-surface-container text-on-surface-variant px-3 py-1 rounded"
-                                        >Next.js</span
-                                    >
-                                    <span
-                                        class="font-mono-code text-mono-code bg-surface-container text-on-surface-variant px-3 py-1 rounded"
-                                        >Redis</span
-                                    >
-                                </div>
-                                <button
-                                    class="font-label-md text-label-md text-primary flex items-center gap-2"
-                                >
-                                    VER PROYECTO
-                                    <span class="material-symbols-outlined text-[16px]"
-                                        >arrow_forward</span
-                                    >
-                                </button>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-                <!-- Additional Project Slot - Bento Style -->
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3 mb-6">
+                <CardProject />
+                <CardProject />
+                <CardProject />
+            </div>
+            <div class="grid grid-cols-1 md:grid-cols-12 gap-3">
+                <!-- Additional ProjectView Slot - Bento Style -->
                 <div class="md:col-span-6 group">
                     <div
                         class="bg-surface-container-low border border-outline-variant/30 rounded-xl p-8 hover:bg-surface-container-lowest hover:border-primary/20 transition-all"
@@ -255,7 +147,7 @@ import Footer from '@/components/layout/Footer.vue'
             </div>
         </section>
         <!-- Tech Stack Section -->
-        <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto mt-24">
+        <section class="px-margin-mobile md:px-margin-desktop max-w-7xl mx-auto">
             <div
                 class="bg-surface-container-lowest border border-outline-variant/40 rounded-2xl p-12 text-center"
             >

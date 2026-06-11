@@ -117,7 +117,16 @@ watch(
                         >
                     </nav>
                 </div>
-                <div class="absolute right-3 top-2.5 md:flex md:items-center md:space-x-4">
+                <div class="absolute right-3 top-2.5 md:hidden">
+                    <button
+                        type="button"
+                        @click="toggleTheme"
+                        class="px-4 py-2 bg-primary text-on-primary rounded-lg hover:opacity-90 transition-opacity"
+                    >
+                        {{ isDark ? '☀️' : '🌙' }}
+                    </button>
+                </div>
+                <div class="hidden md:block">
                     <button
                         type="button"
                         @click="toggleTheme"

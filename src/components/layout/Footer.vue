@@ -13,13 +13,13 @@ const anyoActual = new Date().getFullYear()
                 Pedro Pérez Porfolio
             </div>
             <div class="font-code-sm text-code-sm text-secondary text-center md:text-left">
-                <a
-                    class="font-bold"
-                    href="https://creativecommons.org/licenses/by/4.0/deed.es"
-                    target="_blank"
-                    rel="noopener noreferrer"
-                    >CC-BY</a
-                >
+<!--                <a-->
+<!--                    class="font-bold"-->
+<!--                    href="https://creativecommons.org/licenses/by/4.0/deed.es"-->
+<!--                    target="_blank"-->
+<!--                    rel="noopener noreferrer"-->
+<!--                    >CC-BY</a-->
+<!--                >-->
                 {{ anyoActual }} Pedro Pérez
             </div>
             <div class="flex space-x-6 text-secondary">
