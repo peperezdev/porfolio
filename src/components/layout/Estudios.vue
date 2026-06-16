@@ -44,6 +44,10 @@
           class="px-3 py-1 bg-surface-base rounded-full text-[10px] font-bold text-text-muted border border-surface-border uppercase tracking-wider font-label-caps"
           >Node.js</span
         >
+        <span
+          class="px-3 py-1 bg-surface-base rounded-full text-[10px] font-bold text-text-muted border border-surface-border uppercase tracking-wider font-label-caps"
+          >Bases de Datos</span
+        >
       </div>
     </div>
     <div class="bento-card rounded-xl p-8 flex flex-col justify-between">
@@ -81,6 +85,10 @@
         <span
           class="px-3 py-1 bg-surface-base rounded-full text-[10px] font-bold text-text-muted border border-surface-border uppercase tracking-wider font-label-caps"
           >Bases de Datos</span
+        >
+        <span
+          class="px-3 py-1 bg-surface-base rounded-full text-[10px] font-bold text-text-muted border border-surface-border uppercase tracking-wider font-label-caps"
+          >Python</span
         >
       </div>
     </div>

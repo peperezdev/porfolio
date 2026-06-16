@@ -8,7 +8,7 @@
       class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop py-4 flex justify-between items-center"
     >
       <div class="font-headline-md text-headline-md font-bold tracking-tight text-text-strong">
-        Portafolio
+        Porfolio
       </div>
       <nav class="hidden md:flex items-center gap-8 absolute left-1/2 -translate-x-1/2">
         <a
