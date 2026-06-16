@@ -14,12 +14,16 @@ const anyoActual = new Date().getFullYear()
       <div class="flex justify-center gap-12 mb-12">
         <a
           class="font-code-sm text-[10px] font-bold text-text-muted hover:text-primary transition-colors uppercase tracking-[0.2em]"
-          href="https://github.com/Aladdine-S"
+          href="https://github.com/peperezdev"
+          target="_blank"
+          rel="noopener noreferrer"
           >GitHub</a
         >
         <a
           class="font-code-sm text-[10px] font-bold text-text-muted hover:text-primary transition-colors uppercase tracking-[0.2em]"
           href="https://www.linkedin.com/in/pedro-miguel-p%C3%A9rez-ib%C3%A1%C3%B1ez-43bb56204/"
+          target="_blank"
+          rel="noopener noreferrer"
           >LinkedIn</a
         >
         <!--          <a-->
