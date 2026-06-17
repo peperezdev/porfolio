@@ -6,7 +6,7 @@ const anyoActual = new Date().getFullYear()
   <footer class="w-full border-t border-surface-border bg-surface-base mt-24">
     <div class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop py-16 text-center">
       <div class="font-headline-md text-headline-md font-bold text-text-strong mb-4 tracking-tight">
-        Portafolio
+        Porfolio
       </div>
       <p class="text-sm text-text-muted mb-10 opacity-70">
         Construyendo el futuro, un píxel a la vez.
