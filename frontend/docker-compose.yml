@@ -1,0 +1,15 @@
+services:
+  frontend:
+    build:
+      context: .
+      dockerfile: Dockerfile
+    container_name: porfolio-frontend
+    restart: unless-stopped
+    ports:
+      - '8081:80'
+    networks:
+      - dokploy-network
+
+networks:
+  dokploy-network:
+    external: true

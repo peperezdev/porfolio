@@ -1,0 +1,118 @@
+@import 'themes.css';
+@import 'tailwindcss';
+
+@source "../../";
+@plugin "daisyui";
+
+@layer utilities {
+  .bg-surface {
+    background-color: var(--color-surface);
+  }
+
+  .bg-surface-container {
+    background-color: var(--color-surface-container);
+  }
+
+  .bg-surface-container-low {
+    background-color: var(--color-surface-container-low);
+  }
+
+  .bg-surface-container-high {
+    background-color: var(--color-surface-container-high);
+  }
+
+  .bg-primary {
+    background-color: var(--color-primary);
+  }
+
+  .bg-primary-container {
+    background-color: var(--color-primary-container);
+  }
+
+  .bg-secondary-container {
+    background-color: var(--color-secondary-container);
+  }
+
+  .bg-tertiary-container {
+    background-color: var(--color-tertiary-container);
+  }
+
+  .bg-error {
+    background-color: var(--color-error);
+  }
+
+  .bg-background {
+    background-color: var(--color-background);
+  }
+
+  .text-on-surface {
+    color: var(--color-on-surface);
+  }
+
+  .text-on-primary {
+    color: var(--color-on-primary);
+  }
+
+  .text-on-primary-container {
+    color: var(--color-on-primary-container);
+  }
+
+  .text-on-secondary-container {
+    color: var(--color-on-secondary-container);
+  }
+
+  .text-on-tertiary-container {
+    color: var(--color-on-tertiary-container);
+  }
+
+  .text-on-error {
+    color: var(--color-on-error);
+  }
+
+  .text-on-background {
+    color: var(--color-on-background);
+  }
+}
+
+
+.bento-card {
+  background-color: #0f172a; /* Slate-900 */
+  border: 1px solid rgba(30, 41, 59, 0.5); /* Slate-800 */
+  transition: all 0.4s cubic-bezier(0.4, 0, 0.2, 1);
+}
+.bento-card:hover {
+  border-color: rgba(192, 193, 255, 0.2);
+  box-shadow: 0 10px 40px -10px rgba(0, 0, 0, 0.5);
+  transform: translateY(-4px);
+}
+.status-pulse {
+  animation: pulse 2s infinite;
+}
+@keyframes pulse {
+  0% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+  50% {
+    transform: scale(1.1);
+    opacity: 1;
+  }
+  100% {
+    transform: scale(0.95);
+    opacity: 0.5;
+  }
+}
+.custom-scrollbar::-webkit-scrollbar {
+  width: 6px;
+}
+.custom-scrollbar::-webkit-scrollbar-track {
+  background: transparent;
+}
+.custom-scrollbar::-webkit-scrollbar-thumb {
+  background: #1e293b;
+  border-radius: 10px;
+}
+
+section {
+  scroll-margin-top: 100px;
+}
