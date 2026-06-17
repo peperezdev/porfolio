@@ -26,11 +26,6 @@ const anyoActual = new Date().getFullYear()
           rel="noopener noreferrer"
           >LinkedIn</a
         >
-        <!--          <a-->
-        <!--            class="font-code-sm text-[10px] font-bold text-text-muted hover:text-primary transition-colors uppercase tracking-[0.2em]"-->
-        <!--            href="#"-->
-        <!--            >Twitter</a-->
-        <!--          >-->
       </div>
       <div class="pt-8 border-t border-surface-border">
         <p class="font-code-sm text-[10px] text-text-muted uppercase tracking-widest">

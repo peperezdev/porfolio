@@ -60,7 +60,7 @@
             <p class="text-primary font-bold text-sm">Curso de especialización en IA y Big Data</p>
           </div>
           <span
-            class="font-code-sm text-[10px] font-bold bg-accent-cyan/5 text-accent-cyan/80 px-3 py-1 rounded-full border border-accent-cyan/10 uppercase tracking-wider"
+            class="font-code-sm text-[10px] font-bold bg-primary/5 text-primary/80 px-3 py-1 rounded-full border border-primary/10 uppercase tracking-wider"
             >2026</span
           >
         </div>

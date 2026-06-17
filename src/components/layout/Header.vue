@@ -1,4 +1,15 @@
-<script setup lang="ts"></script>
+<script setup lang="ts">
+  import cvUrl from '@/assets/pdf/Curriculum_Pedro_Perez.pdf';
+
+  const descargarCV = (): void => {
+    const link = document.createElement('a');
+    link.href = cvUrl;
+    link.download = 'Curriculum_Pedro_Perez.pdf';
+    document.body.appendChild(link);
+    link.click();
+    document.body.removeChild(link);
+  };
+</script>
 
 <template>
   <header
@@ -35,6 +46,7 @@
           <span class="material-symbols-outlined text-xl">call</span>
         </a>
         <button
+          @click="descargarCV"
           class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-90 transition-opacity text-sm"
         >
           Currículum

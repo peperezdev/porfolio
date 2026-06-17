@@ -1,7 +1,7 @@
 <script setup lang="ts"></script>
 
 <template>
-  <section class="grid grid-cols-1 md:grid-cols-3 gap-2 mx-1 md:mx-0" id="projects">
+  <section class="grid grid-cols-1 md:grid-cols-2 gap-2 mx-1 md:mx-0" id="projects">
     <!-- Project 1 -->
     <div class="bento-card rounded-xl overflow-hidden group">
       <div class="aspect-[16/10] w-full relative overflow-hidden bg-surface-base">

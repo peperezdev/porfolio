@@ -4,17 +4,14 @@
   <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-24 mx-1 md:mx-0" id="about">
     <!-- Left Side: Content -->
     <section class="md:col-span-7">
-      <div class="flex items-center gap-3 mb-6">
-        <span class="flex h-2 w-2 rounded-full bg-accent-cyan status-pulse"></span>
-        <span class="font-label-caps text-[10px] text-accent-cyan tracking-widest"
-          >DISPONIBLE PARA OPORTUNIDADES</span
-        >
-      </div>
+<!--      <div class="flex items-center gap-3 mb-6">-->
+<!--        <span class="flex h-2 w-2 rounded-full bg-accent-cyan status-pulse"></span>-->
+<!--        <span class="font-label-caps text-[10px] text-accent-cyan tracking-widest"-->
+<!--          >DISPONIBLE PARA OPORTUNIDADES</span-->
+<!--        >-->
+<!--      </div>-->
       <h1 class="font-headline-xl text-headline-xl text-text-strong mb-6 leading-tight">
-        Desarrollador Web Full-Stack especializado en IA y Big Data<br />
-        <!--            <span class="text-primary"-->
-        <!--              >Entusiasta de TypeScript</span-->
-        <!--            >-->
+        Desarrollador Web Full-Stack especializado en IA y Big Data
       </h1>
       <p
         class="text-on-surface-variant font-body-lg text-body-lg max-w-xl mb-10 leading-relaxed opacity-90"
@@ -40,9 +37,6 @@
           >
             <span class="material-symbols-outlined text-2xl">code</span>
           </a>
-          <!--              <a class="text-on-surface-variant hover:text-primary transition-colors" href="#">-->
-          <!--                <span class="material-symbols-outlined text-2xl">alternate_email</span>-->
-          <!--              </a>-->
           <a
             class="text-on-surface-variant hover:text-primary transition-colors"
             href="https://www.linkedin.com/in/pedro-miguel-p%C3%A9rez-ib%C3%A1%C3%B1ez-43bb56204/"
