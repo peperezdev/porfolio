@@ -39,12 +39,12 @@
         >
       </nav>
       <nav class="flex items-center gap-6">
-        <a
-          class="hidden sm:flex text-on-surface-variant hover:text-primary transition-colors"
-          href="tel:+213672535031"
-        >
-          <span class="material-symbols-outlined text-xl">call</span>
-        </a>
+<!--        <a-->
+<!--          class="hidden sm:flex text-on-surface-variant hover:text-primary transition-colors"-->
+<!--          href="tel:+213672535031"-->
+<!--        >-->
+<!--          <span class="material-symbols-outlined text-xl">call</span>-->
+<!--        </a>-->
         <button
           @click="descargarCV"
           class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-90 transition-opacity text-sm"
