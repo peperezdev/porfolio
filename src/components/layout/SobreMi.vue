@@ -4,12 +4,7 @@
   <div class="grid grid-cols-1 md:grid-cols-12 gap-12 items-center mb-24 mx-1 md:mx-0" id="about">
     <!-- Left Side: Content -->
     <section class="md:col-span-7">
-<!--      <div class="flex items-center gap-3 mb-6">-->
-<!--        <span class="flex h-2 w-2 rounded-full bg-accent-cyan status-pulse"></span>-->
-<!--        <span class="font-label-caps text-[10px] text-accent-cyan tracking-widest"-->
-<!--          >DISPONIBLE PARA OPORTUNIDADES</span-->
-<!--        >-->
-<!--      </div>-->
+
       <h1 class="font-headline-xl text-headline-xl text-text-strong mb-6 leading-tight">
         Desarrollador Web Full-Stack especializado en IA y Big Data
       </h1>
@@ -52,17 +47,17 @@
     <!-- Right Side: Profile Card -->
     <section class="md:col-span-5">
       <div
-        class="bento-card rounded-xl p-10 flex flex-col items-center justify-center text-center border-outline-variant/10"
+        class="bento-card rounded-xl px-10 py-20 flex flex-col items-center justify-center text-center border-outline-variant/10"
       >
-        <div
-          class="w-40 h-40 rounded-full overflow-hidden mb-8 border border-primary/10 p-1.5 bg-surface-card"
-        >
-          <img
-            alt="Pedro Pérez - Profile"
-            class="w-full h-full object-cover rounded-full"
-            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa_YuYv0zg4OxVJufypdzArDbsTxSUttn5RcAboS3MiieBKco5kQzJ1DIQtC439K_pgq603pAKlq8gBMD4Q3ni5E6MAsDDli5HUgpHN3BiZ7s-T3tNmZzevMpASUv89u5iT7q6b1PpuuFxfjiovVcFzSwmssR58MM3UdtSbU3Ba2yqdZ2cZXilM834AwqYUsHxv3BRl2ruNKuIciTRSxc4ZoZH4xsruXcqKA6zYUuEbO7icnZ2kvv2MNoZg8vdRK48BrcymZo5Bza9"
-          />
-        </div>
+<!--        <div-->
+<!--          class="w-40 h-40 rounded-full overflow-hidden mb-8 border border-primary/10 p-1.5 bg-surface-card"-->
+<!--        >-->
+<!--          <img-->
+<!--            alt="Pedro Pérez - Profile"-->
+<!--            class="w-full h-full object-cover rounded-full"-->
+<!--            src="https://lh3.googleusercontent.com/aida-public/AB6AXuCa_YuYv0zg4OxVJufypdzArDbsTxSUttn5RcAboS3MiieBKco5kQzJ1DIQtC439K_pgq603pAKlq8gBMD4Q3ni5E6MAsDDli5HUgpHN3BiZ7s-T3tNmZzevMpASUv89u5iT7q6b1PpuuFxfjiovVcFzSwmssR58MM3UdtSbU3Ba2yqdZ2cZXilM834AwqYUsHxv3BRl2ruNKuIciTRSxc4ZoZH4xsruXcqKA6zYUuEbO7icnZ2kvv2MNoZg8vdRK48BrcymZo5Bza9"-->
+<!--          />-->
+<!--        </div>-->
         <h2 class="font-headline-md text-headline-md text-text-strong mb-2">Pedro Pérez</h2>
         <p class="text-primary font-code-sm uppercase tracking-[0.2em] text-[10px] mb-2">
           Técnico Superior en Desarrollo de Aplicaciones WEB.

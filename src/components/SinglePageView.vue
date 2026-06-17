@@ -21,7 +21,7 @@ onMounted(() => {
     <!-- Header -->
     <Header />
 
-    <main class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop pt-32 pb-20">
+    <main class="max-w-[1200px] mx-auto px-margin-mobile md:px-margin-desktop pt-10 pb-20">
       <!-- Hero / Split Layout -->
       <TituloH3 title="DISPONIBLE PARA OPORTUNIDADES" />
 
