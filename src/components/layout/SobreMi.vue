@@ -18,7 +18,7 @@
       >
         Soy Pedro Pérez, un desarrollador de software apasionado y dedicado a la creación de
         aplicaciones web y arquitecturas escalables. Me especializo en diseñar UI/UX modernas con
-        Vue y Node.js, además de contar con sólidos conocimientos en el desarrollo de Inteligencia Artificial y soluciones de Big Data.
+        Vue y Node.js, además de contar con conocimientos en el desarrollo de Inteligencia Artificial y soluciones de Big Data.
       </p>
       <div class="flex flex-wrap gap-6 items-center">
         <a
