@@ -5,6 +5,7 @@ import App from './App.vue'
 import router from './router'
 import './assets/styles/style.css'
 import { useTheme } from './composables/useTheme'
+import { initAnalytics } from './analytics'
 
 /**
  * Instancia principal de la aplicación Vue.
@@ -26,5 +27,7 @@ app.use(router)
 const { initTheme, watchSystemPreference } = useTheme()
 initTheme()
 watchSystemPreference()
+
+initAnalytics()
 
 app.mount('#app')

@@ -1,0 +1,10 @@
+{
+  "$schema": "https://typedoc.org/schema.json",
+  "entryPoints": ["./src/main.ts", "./src/composables/", "./src/router/", "./src/stores/"],
+  "entryPointStrategy": "expand",
+  "out": "docs",
+  "tsconfig": "./tsconfig.app.json",
+  "exclude": ["node_modules", "dist", "**/*.vue"],
+  "cleanOutputDir": true,
+  "skipErrorChecking": true
+}
