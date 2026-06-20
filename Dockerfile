@@ -15,6 +15,10 @@ RUN pnpm install
 # Copiar el resto del código
 COPY . .
 
+# Inyectar la variable de entorno en el momento de compilación
+ARG VITE_API_URL
+ENV VITE_API_URL=$VITE_API_URL
+
 # Construir la aplicación
 RUN pnpm build
 
