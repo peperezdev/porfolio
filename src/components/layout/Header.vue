@@ -1,14 +1,14 @@
 <script setup lang="ts">
-  import cvUrl from '@/assets/pdf/Curriculum_Pedro_Perez.pdf';
+import cvUrl from '@/assets/pdf/Curriculum_Pedro_Perez.pdf'
 
-  const descargarCV = (): void => {
-    const link = document.createElement('a');
-    link.href = cvUrl;
-    link.download = 'Curriculum_Pedro_Perez.pdf';
-    document.body.appendChild(link);
-    link.click();
-    document.body.removeChild(link);
-  };
+const descargarCV = (): void => {
+  const link = document.createElement('a')
+  link.href = cvUrl
+  link.download = 'Curriculum_Pedro_Perez.pdf'
+  document.body.appendChild(link)
+  link.click()
+  document.body.removeChild(link)
+}
 </script>
 
 <template>
@@ -25,29 +25,27 @@
         <a
           class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-xs font-bold tracking-widest uppercase font-label-caps"
           href="#about"
+          id="sobre_mi"
           >Sobre mí</a
         >
         <a
           class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-xs font-bold tracking-widest uppercase font-label-caps"
           href="#experience"
+          id="experiencia"
           >Experiencia</a
         >
         <a
           class="text-on-surface-variant hover:text-primary transition-colors duration-200 text-xs font-bold tracking-widest uppercase font-label-caps"
           href="#projects"
+          id="proyectos"
           >Proyectos</a
         >
-      </nav>
-      <nav class="flex items-center gap-6">
-<!--        <a-->
-<!--          class="hidden sm:flex text-on-surface-variant hover:text-primary transition-colors"-->
-<!--          href="tel:+213672535031"-->
-<!--        >-->
-<!--          <span class="material-symbols-outlined text-xl">call</span>-->
-<!--        </a>-->
+<!--      </nav>-->
+<!--      <nav class="flex items-center gap-6">-->
         <button
           @click="descargarCV"
           class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-90 transition-opacity text-sm"
+          id="curriculumButton"
         >
           Currículum
         </button>
