@@ -1,4 +1,5 @@
-const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
+// const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
+const API_URL = import.meta.env.VITE_API_URL || 'https://porfoliobackend.peperez.es'
 
 console.log('API_URL:', API_URL)
 
