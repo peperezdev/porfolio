@@ -17,6 +17,7 @@ const anyoActual = new Date().getFullYear()
           href="https://github.com/peperezdev"
           target="_blank"
           rel="noopener noreferrer"
+          id="github_footer"
           >GitHub</a
         >
         <a
@@ -24,6 +25,7 @@ const anyoActual = new Date().getFullYear()
           href="https://www.linkedin.com/in/pedro-miguel-p%C3%A9rez-ib%C3%A1%C3%B1ez-43bb56204/"
           target="_blank"
           rel="noopener noreferrer"
+          id="linkedin_footer"
           >LinkedIn</a
         >
       </div>

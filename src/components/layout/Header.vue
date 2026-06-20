@@ -40,8 +40,8 @@ const descargarCV = (): void => {
           id="proyectos"
           >Proyectos</a
         >
-<!--      </nav>-->
-<!--      <nav class="flex items-center gap-6">-->
+      </nav>
+      <nav class="flex items-center gap-6">
         <button
           @click="descargarCV"
           class="bg-primary text-on-primary px-6 py-2 rounded-full font-bold hover:opacity-90 transition-opacity text-sm"

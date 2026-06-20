@@ -24,6 +24,7 @@
             href="https://dentis.peperez.es"
             target="_blank"
             rel="noopener noreferrer"
+            id="dentis_ia"
             >open_in_new</a
           >
         </div>
@@ -81,6 +82,7 @@
             href="https://linkcurt.es"
             target="_blank"
             rel="noopener noreferrer"
+            id="linkcurt"
             >open_in_new</a
           >
         </div>
