@@ -46,7 +46,7 @@ export async function initAnalytics() {
       const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' })
       navigator.sendBeacon(`${API_URL}/api/analytics/click`, blob)
 
-      // console.log('click enviado', payload)
+      console.log('click enviado', payload)
     })
   } catch (error) {
     console.error('Error de envio de eventos', error)
