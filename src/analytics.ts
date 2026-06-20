@@ -1,8 +1,6 @@
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
 // const API_URL = import.meta.env.VITE_API_URL || 'https://porfoliobackend.peperez.es'
 
-console.log('API_URL:', API_URL)
-
 export async function initAnalytics() {
   try {
     // 1. Registrar la visita al entrar a la web
@@ -49,7 +47,6 @@ export async function initAnalytics() {
       const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' })
       navigator.sendBeacon(`${API_URL}/api/analytics/click`, blob)
 
-      console.log('click enviado', payload)
     })
   } catch (error) {
     console.error('Error de envio de eventos', error)
