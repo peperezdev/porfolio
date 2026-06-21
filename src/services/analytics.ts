@@ -26,6 +26,9 @@ export async function initAnalytics() {
       const target = (event.target as HTMLElement).closest('a, button')
       if (!target) return // Sí el clic es en un área vacía, ignorarlo
 
+      // Objeto con información de posición y tamaño del elemento
+      const rec = target.getBoundingClientRect()
+
       // Preparamos los datos tal y como nos los pide el endpoint de clics
       const payload = {
         pageViewId: pageViewId,
@@ -34,10 +37,17 @@ export async function initAnalytics() {
         elementtext: target.textContent?.trim() || target.getAttribute('aria-label') || null,
         targetUrl: target.tagName.toLowerCase() === 'a' ? (target as HTMLAnchorElement).href : null,
         metadata: {
-          x: event.pageX, // Coordenada horizontal (incluye lo que haya hecho de scroll)
-          y: event.pageY, // Coordenada vertical (incluye el scroll)
-          viewportWidth: window.innerWidth, // Ancho de la pantalla
-          viewportHeight: window.innerHeight, // Alto de la pantalla
+          // Posición X e Y pero DENTRO del botón (de 0 al ancho del botón)
+          clickOffsetX: Math.round(event.clientX - rec.left),
+          clickOffsetY: Math.round(event.clientX - rec.top),
+
+          // Guardamos también las dimensiones del botón por si cambian en móvil
+          elementWidth: Math.round(rec.width),
+          elementHeight: Math.round(rec.height),
+
+          // Y mantenemos el tamaño de pantalla por si quieres segmentar (Móvil vs PC)
+          viewportWidth: window.innerWidth,
+          viewportHeight: window.innerHeight,
         },
       }
 
@@ -45,8 +55,6 @@ export async function initAnalytics() {
       // incluso si el usuario está cerrando la pestaña o yéndose a otro enlace.
       const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' })
       navigator.sendBeacon(`${API_URL}/api/analytics/click`, blob)
-
-      console.log('Blob', blob)
     })
   } catch (error) {
     console.error('Error de envio de eventos', error)
