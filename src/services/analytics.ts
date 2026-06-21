@@ -23,7 +23,7 @@ export async function initAnalytics() {
       if (!event.target) return
 
       // Buscar si el objetivo clickado o sus contenedores son un enlace o botón
-      const target = (event.target as HTMLElement).closest('a, button')
+      const target = (event.target as HTMLElement).closest('a')
       if (!target) return // Sí el clic es en un área vacía, ignorarlo
 
       // Objeto con información de posición y tamaño del elemento

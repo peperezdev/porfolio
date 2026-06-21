@@ -2,9 +2,19 @@
 import cvUrl from '@/assets/pdf/Curriculum_Pedro_Perez.pdf'
 
 const descargarCV = (): void => {
-  const link = document.createElement('a')
-  link.href = cvUrl
-  link.download = 'Curriculum_Pedro_Perez.pdf'
+//   const link = document.createElement('a')
+//   link.id= "curriculum"
+//   link.innerText= "curriculum"
+//   link.href = cvUrl
+//   link.download = 'Curriculum_Pedro_Perez.pdf'
+
+  const link = Object.assign(document.createElement('a'),{
+    id: "curriculum",
+    innerText: "curriculum",
+    href: cvUrl,
+    download: 'Curriculum_Pedro_Perez.pdf'
+  })
+
   document.body.appendChild(link)
   link.click()
   document.body.removeChild(link)
