@@ -1,5 +1,4 @@
 const API_URL = import.meta.env.VITE_API_URL || 'http://localhost:3002'
-// const API_URL = import.meta.env.VITE_API_URL || 'https://porfoliobackend.peperez.es'
 
 export async function initAnalytics() {
   try {
@@ -25,20 +24,20 @@ export async function initAnalytics() {
 
       // Buscar si el objetivo clickado o sus contenedores son un enlace o botón
       const target = (event.target as HTMLElement).closest('a, button')
-      if (!target) return // Si el clic es en un área vacía, ignorarlo
+      if (!target) return // Sí el clic es en un área vacía, ignorarlo
 
       // Preparamos los datos tal y como nos los pide el endpoint de clics
       const payload = {
         pageViewId: pageViewId,
         eventType: target.tagName,
         elementId: target.id || null,
-        elementText:
-          (target as HTMLAnchorElement).innerText?.trim() ||
-          target.getAttribute('aria-label') ||
-          null,
+        elementtext: target.textContent?.trim() || target.getAttribute('aria-label') || null,
         targetUrl: target.tagName.toLowerCase() === 'a' ? (target as HTMLAnchorElement).href : null,
         metadata: {
-          classes: target.className,
+          x: event.pageX, // Coordenada horizontal (incluye lo que haya hecho de scroll)
+          y: event.pageY, // Coordenada vertical (incluye el scroll)
+          viewportWidth: window.innerWidth, // Ancho de la pantalla
+          viewportHeight: window.innerHeight, // Alto de la pantalla
         },
       }
 
@@ -47,6 +46,7 @@ export async function initAnalytics() {
       const blob = new Blob([JSON.stringify(payload)], { type: 'application/json' })
       navigator.sendBeacon(`${API_URL}/api/analytics/click`, blob)
 
+      console.log('Blob', blob)
     })
   } catch (error) {
     console.error('Error de envio de eventos', error)

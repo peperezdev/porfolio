@@ -5,7 +5,7 @@ import App from './App.vue'
 import router from './router'
 import './assets/styles/style.css'
 import { useTheme } from './composables/useTheme'
-import { initAnalytics } from './analytics'
+import { initAnalytics } from './services/analytics.ts'
 
 /**
  * Instancia principal de la aplicación Vue.
